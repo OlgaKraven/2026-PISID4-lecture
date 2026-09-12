@@ -1,0 +1,33 @@
+{
+  "viewports": [
+    {
+      "width": 1920,
+      "slides": 451
+    },
+    {
+      "width": 1366,
+      "slides": 451
+    },
+    {
+      "width": 390,
+      "slides": 451
+    }
+  ],
+  "assessment": [
+    "single",
+    "multiple",
+    "short",
+    "matching"
+  ],
+  "session": [
+    "two windows",
+    "notes import",
+    "diagram open/close sync",
+    "navigation",
+    "audience reload",
+    "black screen",
+    "no bank request"
+  ],
+  "errors": [],
+  "status": "passed"
+}

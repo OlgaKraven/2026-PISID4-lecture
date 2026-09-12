@@ -1,0 +1,92 @@
+[
+  {
+    "lecture": "01-customer-documents",
+    "pages": 89,
+    "missingTitles": [],
+    "fonts": [
+      "",
+      "BAAAAA+Arial-Black",
+      "DBAAAA+Arial-BoldMT",
+      "HAAAAA+Arial-BoldMT",
+      "KAAAAA+SegoeUISymbol",
+      "RAAAAA+Arial-BoldMT",
+      "TAAAAA+ArialMT",
+      "OAAAAA+Arial-Black",
+      "NAAAAA+SegoeUISymbol",
+      "EAAAAA+ArialMT",
+      "MAAAAA+Arial-BoldMT"
+    ]
+  },
+  {
+    "lecture": "02-conceptual-model",
+    "pages": 89,
+    "missingTitles": [],
+    "fonts": [
+      "",
+      "BAAAAA+Arial-Black",
+      "DBAAAA+Arial-BoldMT",
+      "LAAAAA+SegoeUISymbol",
+      "RAAAAA+Arial-BoldMT",
+      "FAAAAA+ArialMT",
+      "TAAAAA+ArialMT",
+      "IAAAAA+Arial-BoldMT",
+      "OAAAAA+Arial-Black",
+      "NAAAAA+SegoeUISymbol",
+      "CAAAAA+Arial-BoldMT"
+    ]
+  },
+  {
+    "lecture": "03-ui-scenarios",
+    "pages": 89,
+    "missingTitles": [],
+    "fonts": [
+      "",
+      "BAAAAA+Arial-Black",
+      "DBAAAA+Arial-BoldMT",
+      "LAAAAA+SegoeUISymbol",
+      "RAAAAA+Arial-BoldMT",
+      "FAAAAA+ArialMT",
+      "UAAAAA+ArialMT",
+      "IAAAAA+Arial-BoldMT",
+      "OAAAAA+Arial-Black",
+      "NAAAAA+SegoeUISymbol",
+      "CAAAAA+Arial-BoldMT"
+    ]
+  },
+  {
+    "lecture": "04-access-auth-admin",
+    "pages": 89,
+    "missingTitles": [],
+    "fonts": [
+      "",
+      "BAAAAA+Arial-Black",
+      "DBAAAA+Arial-BoldMT",
+      "HAAAAA+Arial-BoldMT",
+      "KAAAAA+SegoeUISymbol",
+      "RAAAAA+Arial-BoldMT",
+      "UAAAAA+ArialMT",
+      "OAAAAA+Arial-Black",
+      "NAAAAA+SegoeUISymbol",
+      "EAAAAA+ArialMT",
+      "MAAAAA+Arial-BoldMT"
+    ]
+  },
+  {
+    "lecture": "05-project-documentation",
+    "pages": 95,
+    "missingTitles": [],
+    "fonts": [
+      "",
+      "BAAAAA+Arial-Black",
+      "DBAAAA+Arial-BoldMT",
+      "HAAAAA+Arial-BoldMT",
+      "KAAAAA+SegoeUISymbol",
+      "RAAAAA+Arial-BoldMT",
+      "UAAAAA+ArialMT",
+      "OAAAAA+Arial-Black",
+      "NAAAAA+SegoeUISymbol",
+      "EAAAAA+ArialMT",
+      "MAAAAA+Arial-BoldMT"
+    ]
+  }
+]

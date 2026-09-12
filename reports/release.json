@@ -1,0 +1,81 @@
+{
+  "contentVersion": "pisid4-2027-template02-v2",
+  "checkedAt": "2026-09-12T21:55:54.077Z",
+  "slides": [
+    {
+      "id": "01-customer-documents",
+      "count": 89
+    },
+    {
+      "id": "02-conceptual-model",
+      "count": 89
+    },
+    {
+      "id": "03-ui-scenarios",
+      "count": 89
+    },
+    {
+      "id": "04-access-auth-admin",
+      "count": 89
+    },
+    {
+      "id": "05-project-documentation",
+      "count": 95
+    }
+  ],
+  "totalSlides": 451,
+  "teacherNotes": 451,
+  "tasks": 80,
+  "visuals": 144,
+  "courseSha256": "9ee3a34461c0c16c1f79c8db3aa4666f392c56ce2db7987ba1384d4dc4f79d7c",
+  "checks": {
+    "lint": "passed",
+    "typescript": "passed",
+    "content": "passed",
+    "readinessWithTeacher": "passed",
+    "methodology": "passed",
+    "browser": {
+      "viewports": [
+        {
+          "width": 1920,
+          "slides": 451
+        },
+        {
+          "width": 1366,
+          "slides": 451
+        },
+        {
+          "width": 390,
+          "slides": 451
+        }
+      ],
+      "assessment": [
+        "single",
+        "multiple",
+        "short",
+        "matching"
+      ],
+      "session": [
+        "two windows",
+        "notes import",
+        "diagram open/close sync",
+        "navigation",
+        "audience reload",
+        "black screen",
+        "no bank request"
+      ],
+      "errors": [],
+      "status": "passed"
+    },
+    "pdfPages": 451,
+    "geometryIssues": 0,
+    "qrDecoded": 43,
+    "privacy": "passed: 451 scripts absent from dist"
+  },
+  "limitations": [
+    "РПД и официальные часы не указаны.",
+    "Физический проектор и раздельные мониторы не проверены; два браузерных окна проверены.",
+    "Вид аттестации и вариативная часть группы не указаны.",
+    "Полная реализация заданий ДЭ 2–3 и API относится к практике."
+  ]
+}

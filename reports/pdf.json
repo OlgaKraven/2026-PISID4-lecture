@@ -1,0 +1,47 @@
+[
+  {
+    "lectureId": "01-customer-documents",
+    "path": "outputs\\pdf\\student\\01-customer-documents.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "path": "outputs\\pdf\\student\\02-conceptual-model.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "path": "outputs\\pdf\\student\\03-ui-scenarios.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "path": "outputs\\pdf\\student\\04-access-auth-admin.pdf",
+    "pages": 89,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "path": "outputs\\pdf\\student\\05-project-documentation.pdf",
+    "pages": 95,
+    "size": {
+      "width": 960,
+      "height": 540
+    }
+  }
+]

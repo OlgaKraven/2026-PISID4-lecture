@@ -1,45 +1,43 @@
-import { launchBrowser, startServer, stopServer } from './runtime.mjs';
-
-const viewports = [
-  { width: 1920, height: 1080 },
-  { width: 1366, height: 768 },
-  { width: 768, height: 1024 },
-  { width: 390, height: 844 },
-  { width: 360, height: 800 },
-];
-const port = 4700 + Math.floor(Math.random() * 200);
-const liveUrl = process.env.SMOKE_BASE_URL?.replace(/\/$/, '');
-const { child, url } = liveUrl ? { child: null, url: liveUrl } : await startServer(port);
-let browser;
-
-try {
-  browser = await launchBrowser();
-  const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'networkidle' });
-  const topicCount = await page.locator('[data-topic-id]').count();
-  if (topicCount === 0) throw new Error('Catalog contains no topics');
-  const firstTopic = await page.locator('[data-topic-id]').first().getAttribute('data-topic-id');
-  for (const viewport of viewports) {
-    await page.setViewportSize(viewport);
-    await page.goto(`${url}/?topic=${firstTopic}&slide=1`, { waitUntil: 'networkidle' });
-    await page.locator('.slide.is-active').waitFor();
-    const metrics = await page.evaluate(() => ({
-      overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
-      activeSlides: document.querySelectorAll('.slide.is-active').length,
-      layers: document.querySelectorAll('.stage-layer').length,
-      progress: document.querySelector('.progress-block > span')?.textContent ?? '',
-    }));
-    if (metrics.overflow > 1) throw new Error(`Horizontal overflow ${metrics.overflow}px at ${viewport.width}x${viewport.height}`);
-    if (metrics.activeSlides !== 1) throw new Error(`Expected one active slide, got ${metrics.activeSlides}`);
-    if (!metrics.progress.includes('1 / 85')) throw new Error(`Unexpected progress label: ${metrics.progress}`);
-    if (metrics.layers < 2) throw new Error('Neighbor slide was not kept in the DOM');
-    console.log(`OK ${viewport.width}x${viewport.height}`);
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {launchBrowser,siteUrl} from './runtime.mjs';
+const c=JSON.parse(await fs.readFile('public/course.json','utf8')),bank=JSON.parse(await fs.readFile('public/assessment.json','utf8'));
+const browser=await launchBrowser(),report={viewports:[],assessment:[],session:[],errors:[]};
+const context=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+const page=await context.newPage();page.on('pageerror',e=>report.errors.push(e.message));
+const go=async(l,s)=>{await page.goto(siteUrl+'?lecture='+l.id+'&slide='+s.id);await page.locator('.active-slide .slide-frame').waitFor();};
+try{
+ await page.goto(siteUrl);await page.getByRole('button',{name:'Открыть',exact:true}).first().waitFor();assert.equal(await page.getByRole('button',{name:'Открыть',exact:true}).count(),5);
+ await page.getByRole('textbox',{name:'Поиск по всему курсу'}).fill('signature_file');assert.ok(await page.getByRole('button',{name:'Открыть',exact:true}).count()<5);
+ for(const width of [1920,1366,390]){
+  await page.setViewportSize({width,height:width===390?844:1080});let checked=0;
+  for(const l of c.lectures){
+   await go(l,l.slides[0]);
+   for(let i=0;i<l.slides.length;i++){
+    const expected=l.slides[i].id;await page.waitForFunction(id=>document.querySelector('.active-slide .slide-frame')?.getAttribute('data-slide-id')===id,expected);
+    const over=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);assert.ok(over<=2,expected+' horizontal '+over);
+    if(i<l.slides.length-1)await page.getByRole('button',{name:'Вперёд',exact:true}).click();checked++;
+   }
   }
-  await page.getByRole('button', { name: 'Следующий экран' }).click();
-  await page.locator('.progress-block > span').filter({ hasText: '2 / 85' }).waitFor();
-  console.log(`OK topics=${topicCount}; keyboard/buttons/direct links/85-slide counter`);
-  await page.close();
-} finally {
-  if (browser) await browser.close();
-  if (child) stopServer(child);
-}
+  report.viewports.push({width,slides:checked});console.log('Viewer '+width+': '+checked);
+ }
+ await page.setViewportSize({width:1440,height:900});
+ const l=c.lectures[0],tasks=l.slides.filter(s=>s.task).slice(0,4);
+ for(const s of tasks){await go(l,s);const t=s.task,k=bank.keys[t.id];await page.getByRole('button',{name:'Проверить',exact:true}).click();await page.getByRole('alert').filter({hasText:'Пустое поле'}).waitFor();
+  if(t.type==='single'){await page.getByRole('radio').nth(1).check();await page.getByRole('button',{name:'Проверить',exact:true}).click();await page.locator('.task-status.incorrect').waitFor();await page.getByRole('button',{name:'Ещё попытка'}).click();await page.getByRole('radio').nth(t.options.findIndex(o=>o.id===k.correct[0])).check();}
+  if(t.type==='multiple'){await page.getByRole('checkbox').nth(t.options.findIndex(o=>o.id===k.correct[0])).check();await page.getByRole('button',{name:'Проверить',exact:true}).click();await page.locator('.task-status.incorrect').waitFor();await page.getByRole('button',{name:'Ещё попытка'}).click();for(const id of k.correct)await page.getByRole('checkbox').nth(t.options.findIndex(o=>o.id===id)).check();}
+  if(t.type==='short'){await page.getByRole('textbox',{name:'Краткий ответ'}).fill('0');await page.getByRole('button',{name:'Проверить',exact:true}).click();await page.locator('.task-status.incorrect').waitFor();await page.getByRole('button',{name:'Ещё попытка'}).click();await page.getByRole('textbox',{name:'Краткий ответ'}).fill('  '+k.accepted[0].toUpperCase()+'  ');}
+  if(t.type==='matching'){await page.getByRole('combobox').first().selectOption(k.pairs[t.items[0].id]);await page.getByRole('button',{name:'Проверить',exact:true}).click();assert.match(await page.locator('.task-status').innerText(),/0,25/);await page.getByRole('button',{name:'Ещё попытка'}).click();for(const [i,item] of t.items.entries())await page.getByRole('combobox').nth(i).selectOption(k.pairs[item.id]);}
+  await page.getByRole('button',{name:'Проверить',exact:true}).click();await page.locator('.task-status.correct').waitFor();await page.getByRole('button',{name:'Разбор ответа',exact:true}).click();await page.getByRole('dialog').waitFor();await page.keyboard.press('Escape');await page.reload();await page.locator('.task-status.correct').waitFor();
+  await page.setViewportSize({width:390,height:844});await page.getByRole('status').filter({hasText:'Ответ сохранён'}).waitFor();assert.equal(await page.getByRole('button',{name:'Разбор ответа',exact:true}).count(),0);assert.equal(await page.getByRole('button',{name:'Ещё попытка'}).count(),0);await page.reload();await page.getByRole('status').filter({hasText:'Ответ сохранён'}).waitFor();await page.setViewportSize({width:1440,height:900});report.assessment.push(t.type);
+ }
+ const worked=l.slides.find(s=>s.id.endsWith('Q01-worked'));await go(l,worked);
+ const popup=context.waitForEvent('page');await page.getByRole('button',{name:'Начать занятие в двух окнах'}).click();const audience=await popup,requests=[];audience.on('request',r=>requests.push(r.url()));
+ await audience.locator('[data-slide-id="'+worked.id+'"]').waitFor();await page.locator('.connection.connected').waitFor();
+ await page.locator('input[type=file]').setInputFiles('private/teacher-pack.json');await page.getByRole('button',{name:'Применить заметки'}).click();assert.match(await page.getByRole('tabpanel').innerText(),/DOC-01/);assert.equal(await audience.locator('.note-reader').count(),0);
+ await page.getByRole('button',{name:'Рассмотреть схему',exact:true}).click();await audience.getByRole('dialog').waitFor();await page.keyboard.press('Escape');await audience.getByRole('dialog').waitFor({state:'hidden'});
+ await page.getByRole('button',{name:'Вперёд',exact:true}).click();await audience.locator('[data-slide-id="'+tasks[0].id+'"]').waitFor();await audience.reload();await audience.locator('[data-slide-id="'+tasks[0].id+'"]').waitFor();
+ await page.getByRole('button',{name:'Чёрный экран',exact:true}).click();await audience.locator('.black-screen').waitFor();await page.getByRole('button',{name:'Вернуть слайд'}).click();await audience.locator('[data-slide-id]').waitFor();assert.ok(!requests.some(u=>u.endsWith('/assessment.json')));report.session=['two windows','notes import','diagram open/close sync','navigation','audience reload','black screen','no bank request'];
+ await page.screenshot({path:'output/playwright/presenter.png',fullPage:true});await audience.screenshot({path:'output/playwright/audience.png'});
+ assert.deepEqual(report.errors,[]);report.status='passed';
+}catch(e){report.failure=String(e);throw e;}finally{await fs.writeFile('reports/browser.json',JSON.stringify(report,null,2));await browser.close();}

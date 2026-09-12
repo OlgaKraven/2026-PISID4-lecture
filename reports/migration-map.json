@@ -1,0 +1,3522 @@
+[
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "start",
+    "newSlideIds": [
+      "01-customer-documents-start"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "course-theme",
+    "newSlideIds": [
+      "01-customer-documents-start"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "main-literature",
+    "newSlideIds": [
+      "01-customer-documents-main-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "additional-literature",
+    "newSlideIds": [
+      "01-customer-documents-additional-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "materials",
+    "newSlideIds": [
+      "01-customer-documents-materials"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "why",
+    "newSlideIds": [
+      "01-customer-documents-why"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "case",
+    "newSlideIds": [
+      "01-customer-documents-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "route",
+    "newSlideIds": [
+      "01-customer-documents-route"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "start-model",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "outcomes",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "artifact-path",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "diagnostic",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c1-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c1-definition",
+    "newSlideIds": [
+      "01-customer-documents-c1-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c1-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c1-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c1-case",
+    "newSlideIds": [
+      "01-customer-documents-c1-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c1-decision",
+    "newSlideIds": [
+      "01-customer-documents-c1-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c1-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c1-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c1-check",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01",
+      "01-customer-documents-Q01-T02",
+      "01-customer-documents-Q01-T03",
+      "01-customer-documents-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c2-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c2-definition",
+    "newSlideIds": [
+      "01-customer-documents-c2-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c2-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c2-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c2-case",
+    "newSlideIds": [
+      "01-customer-documents-c2-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c2-decision",
+    "newSlideIds": [
+      "01-customer-documents-c2-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c2-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c2-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c2-check",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01",
+      "01-customer-documents-Q01-T02",
+      "01-customer-documents-Q01-T03",
+      "01-customer-documents-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c3-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c3-definition",
+    "newSlideIds": [
+      "01-customer-documents-c3-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c3-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c3-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c3-case",
+    "newSlideIds": [
+      "01-customer-documents-c3-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c3-decision",
+    "newSlideIds": [
+      "01-customer-documents-c3-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c3-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c3-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c3-check",
+    "newSlideIds": [
+      "01-customer-documents-Q02-T01",
+      "01-customer-documents-Q02-T02",
+      "01-customer-documents-Q02-T03",
+      "01-customer-documents-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c4-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c4-definition",
+    "newSlideIds": [
+      "01-customer-documents-c4-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c4-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c4-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c4-case",
+    "newSlideIds": [
+      "01-customer-documents-c4-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c4-decision",
+    "newSlideIds": [
+      "01-customer-documents-c4-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c4-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c4-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c4-check",
+    "newSlideIds": [
+      "01-customer-documents-Q02-T01",
+      "01-customer-documents-Q02-T02",
+      "01-customer-documents-Q02-T03",
+      "01-customer-documents-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c5-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c5-definition",
+    "newSlideIds": [
+      "01-customer-documents-c5-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c5-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c5-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c5-case",
+    "newSlideIds": [
+      "01-customer-documents-c5-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c5-decision",
+    "newSlideIds": [
+      "01-customer-documents-c5-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c5-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c5-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c5-check",
+    "newSlideIds": [
+      "01-customer-documents-Q03-T01",
+      "01-customer-documents-Q03-T02",
+      "01-customer-documents-Q03-T03",
+      "01-customer-documents-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c6-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c6-definition",
+    "newSlideIds": [
+      "01-customer-documents-c6-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c6-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c6-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c6-case",
+    "newSlideIds": [
+      "01-customer-documents-c6-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c6-decision",
+    "newSlideIds": [
+      "01-customer-documents-c6-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c6-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c6-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c6-check",
+    "newSlideIds": [
+      "01-customer-documents-Q03-T01",
+      "01-customer-documents-Q03-T02",
+      "01-customer-documents-Q03-T03",
+      "01-customer-documents-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c7-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c7-definition",
+    "newSlideIds": [
+      "01-customer-documents-c7-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c7-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c7-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c7-case",
+    "newSlideIds": [
+      "01-customer-documents-c7-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c7-decision",
+    "newSlideIds": [
+      "01-customer-documents-c7-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c7-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c7-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c7-check",
+    "newSlideIds": [
+      "01-customer-documents-Q04-T01",
+      "01-customer-documents-Q04-T02",
+      "01-customer-documents-Q04-T03",
+      "01-customer-documents-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c8-divider",
+    "newSlideIds": [
+      "01-customer-documents-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c8-definition",
+    "newSlideIds": [
+      "01-customer-documents-c8-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c8-mechanism",
+    "newSlideIds": [
+      "01-customer-documents-c8-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c8-case",
+    "newSlideIds": [
+      "01-customer-documents-c8-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c8-decision",
+    "newSlideIds": [
+      "01-customer-documents-c8-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c8-mistake",
+    "newSlideIds": [
+      "01-customer-documents-c8-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "c8-check",
+    "newSlideIds": [
+      "01-customer-documents-Q04-T01",
+      "01-customer-documents-Q04-T02",
+      "01-customer-documents-Q04-T03",
+      "01-customer-documents-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-scenario",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-artifact",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-compare",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-process",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-schema",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-discussion",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-review",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "practice-reflection",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "test-multi",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "test-order",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "test-match",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "test-diagram",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "test-short",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "test-self",
+    "newSlideIds": [
+      "01-customer-documents-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "cheat",
+    "newSlideIds": [
+      "01-customer-documents-summary"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "final",
+    "newSlideIds": [
+      "01-customer-documents-final"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "01-customer-documents",
+    "oldSlideId": "questions",
+    "newSlideIds": [
+      "01-customer-documents-questions"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "start",
+    "newSlideIds": [
+      "02-conceptual-model-start"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "course-theme",
+    "newSlideIds": [
+      "02-conceptual-model-start"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "main-literature",
+    "newSlideIds": [
+      "02-conceptual-model-main-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "additional-literature",
+    "newSlideIds": [
+      "02-conceptual-model-additional-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "materials",
+    "newSlideIds": [
+      "02-conceptual-model-materials"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "why",
+    "newSlideIds": [
+      "02-conceptual-model-why"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "case",
+    "newSlideIds": [
+      "02-conceptual-model-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "route",
+    "newSlideIds": [
+      "02-conceptual-model-route"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "start-model",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "outcomes",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "artifact-path",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "diagnostic",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c1-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c1-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c1-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c1-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c1-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c1-case",
+    "newSlideIds": [
+      "02-conceptual-model-c1-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c1-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c1-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c1-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c1-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c1-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01",
+      "02-conceptual-model-Q01-T02",
+      "02-conceptual-model-Q01-T03",
+      "02-conceptual-model-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c2-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c2-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c2-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c2-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c2-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c2-case",
+    "newSlideIds": [
+      "02-conceptual-model-c2-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c2-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c2-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c2-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c2-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c2-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01",
+      "02-conceptual-model-Q01-T02",
+      "02-conceptual-model-Q01-T03",
+      "02-conceptual-model-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c3-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c3-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c3-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c3-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c3-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c3-case",
+    "newSlideIds": [
+      "02-conceptual-model-c3-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c3-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c3-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c3-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c3-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c3-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q02-T01",
+      "02-conceptual-model-Q02-T02",
+      "02-conceptual-model-Q02-T03",
+      "02-conceptual-model-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c4-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c4-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c4-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c4-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c4-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c4-case",
+    "newSlideIds": [
+      "02-conceptual-model-c4-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c4-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c4-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c4-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c4-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c4-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q02-T01",
+      "02-conceptual-model-Q02-T02",
+      "02-conceptual-model-Q02-T03",
+      "02-conceptual-model-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c5-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c5-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c5-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c5-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c5-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c5-case",
+    "newSlideIds": [
+      "02-conceptual-model-c5-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c5-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c5-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c5-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c5-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c5-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q03-T01",
+      "02-conceptual-model-Q03-T02",
+      "02-conceptual-model-Q03-T03",
+      "02-conceptual-model-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c6-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c6-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c6-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c6-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c6-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c6-case",
+    "newSlideIds": [
+      "02-conceptual-model-c6-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c6-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c6-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c6-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c6-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c6-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q03-T01",
+      "02-conceptual-model-Q03-T02",
+      "02-conceptual-model-Q03-T03",
+      "02-conceptual-model-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c7-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c7-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c7-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c7-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c7-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c7-case",
+    "newSlideIds": [
+      "02-conceptual-model-c7-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c7-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c7-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c7-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c7-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c7-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q04-T01",
+      "02-conceptual-model-Q04-T02",
+      "02-conceptual-model-Q04-T03",
+      "02-conceptual-model-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c8-divider",
+    "newSlideIds": [
+      "02-conceptual-model-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c8-definition",
+    "newSlideIds": [
+      "02-conceptual-model-c8-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c8-mechanism",
+    "newSlideIds": [
+      "02-conceptual-model-c8-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c8-case",
+    "newSlideIds": [
+      "02-conceptual-model-c8-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c8-decision",
+    "newSlideIds": [
+      "02-conceptual-model-c8-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c8-mistake",
+    "newSlideIds": [
+      "02-conceptual-model-c8-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "c8-check",
+    "newSlideIds": [
+      "02-conceptual-model-Q04-T01",
+      "02-conceptual-model-Q04-T02",
+      "02-conceptual-model-Q04-T03",
+      "02-conceptual-model-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-scenario",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-artifact",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-compare",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-process",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-schema",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-discussion",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-review",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "practice-reflection",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "test-multi",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "test-order",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "test-match",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "test-diagram",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "test-short",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "test-self",
+    "newSlideIds": [
+      "02-conceptual-model-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "cheat",
+    "newSlideIds": [
+      "02-conceptual-model-summary"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "final",
+    "newSlideIds": [
+      "02-conceptual-model-final"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "02-conceptual-model",
+    "oldSlideId": "questions",
+    "newSlideIds": [
+      "02-conceptual-model-questions"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "start",
+    "newSlideIds": [
+      "03-ui-scenarios-start"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "course-theme",
+    "newSlideIds": [
+      "03-ui-scenarios-start"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "main-literature",
+    "newSlideIds": [
+      "03-ui-scenarios-main-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "additional-literature",
+    "newSlideIds": [
+      "03-ui-scenarios-additional-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "materials",
+    "newSlideIds": [
+      "03-ui-scenarios-materials"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "why",
+    "newSlideIds": [
+      "03-ui-scenarios-why"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "case",
+    "newSlideIds": [
+      "03-ui-scenarios-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "route",
+    "newSlideIds": [
+      "03-ui-scenarios-route"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "start-model",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "outcomes",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "artifact-path",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "diagnostic",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c1-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c1-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c1-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c1-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c1-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c1-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c1-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c1-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c1-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c1-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c1-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c1-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01",
+      "03-ui-scenarios-Q01-T02",
+      "03-ui-scenarios-Q01-T03",
+      "03-ui-scenarios-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c2-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c2-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c2-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c2-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c2-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c2-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c2-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c2-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c2-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c2-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c2-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c2-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01",
+      "03-ui-scenarios-Q01-T02",
+      "03-ui-scenarios-Q01-T03",
+      "03-ui-scenarios-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c3-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c3-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c3-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c3-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c3-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c3-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c3-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c3-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c3-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c3-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c3-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c3-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q02-T01",
+      "03-ui-scenarios-Q02-T02",
+      "03-ui-scenarios-Q02-T03",
+      "03-ui-scenarios-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c4-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c4-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c4-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c4-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c4-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c4-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c4-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c4-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c4-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c4-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c4-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c4-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q02-T01",
+      "03-ui-scenarios-Q02-T02",
+      "03-ui-scenarios-Q02-T03",
+      "03-ui-scenarios-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c5-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c5-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c5-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c5-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c5-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c5-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c5-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c5-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c5-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c5-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c5-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c5-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q03-T01",
+      "03-ui-scenarios-Q03-T02",
+      "03-ui-scenarios-Q03-T03",
+      "03-ui-scenarios-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c6-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c6-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c6-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c6-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c6-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c6-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c6-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c6-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c6-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c6-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c6-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c6-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q03-T01",
+      "03-ui-scenarios-Q03-T02",
+      "03-ui-scenarios-Q03-T03",
+      "03-ui-scenarios-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c7-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c7-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c7-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c7-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c7-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c7-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c7-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c7-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c7-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c7-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c7-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c7-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q04-T01",
+      "03-ui-scenarios-Q04-T02",
+      "03-ui-scenarios-Q04-T03",
+      "03-ui-scenarios-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c8-divider",
+    "newSlideIds": [
+      "03-ui-scenarios-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c8-definition",
+    "newSlideIds": [
+      "03-ui-scenarios-c8-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c8-mechanism",
+    "newSlideIds": [
+      "03-ui-scenarios-c8-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c8-case",
+    "newSlideIds": [
+      "03-ui-scenarios-c8-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c8-decision",
+    "newSlideIds": [
+      "03-ui-scenarios-c8-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c8-mistake",
+    "newSlideIds": [
+      "03-ui-scenarios-c8-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "c8-check",
+    "newSlideIds": [
+      "03-ui-scenarios-Q04-T01",
+      "03-ui-scenarios-Q04-T02",
+      "03-ui-scenarios-Q04-T03",
+      "03-ui-scenarios-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-scenario",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-artifact",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-compare",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-process",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-schema",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-discussion",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-review",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "practice-reflection",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "test-multi",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "test-order",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "test-match",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "test-diagram",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "test-short",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "test-self",
+    "newSlideIds": [
+      "03-ui-scenarios-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "cheat",
+    "newSlideIds": [
+      "03-ui-scenarios-summary"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "final",
+    "newSlideIds": [
+      "03-ui-scenarios-final"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "03-ui-scenarios",
+    "oldSlideId": "questions",
+    "newSlideIds": [
+      "03-ui-scenarios-questions"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "start",
+    "newSlideIds": [
+      "04-access-auth-admin-start"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "course-theme",
+    "newSlideIds": [
+      "04-access-auth-admin-start"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "main-literature",
+    "newSlideIds": [
+      "04-access-auth-admin-main-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "additional-literature",
+    "newSlideIds": [
+      "04-access-auth-admin-additional-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "materials",
+    "newSlideIds": [
+      "04-access-auth-admin-materials"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "why",
+    "newSlideIds": [
+      "04-access-auth-admin-why"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "case",
+    "newSlideIds": [
+      "04-access-auth-admin-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "route",
+    "newSlideIds": [
+      "04-access-auth-admin-route"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "start-model",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "outcomes",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "artifact-path",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "diagnostic",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c1-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c1-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c1-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c1-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c1-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c1-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c1-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c1-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c1-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c1-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c1-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c1-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01",
+      "04-access-auth-admin-Q01-T02",
+      "04-access-auth-admin-Q01-T03",
+      "04-access-auth-admin-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c2-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c2-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c2-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c2-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c2-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c2-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c2-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c2-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c2-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c2-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c2-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c2-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01",
+      "04-access-auth-admin-Q01-T02",
+      "04-access-auth-admin-Q01-T03",
+      "04-access-auth-admin-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c3-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c3-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c3-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c3-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c3-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c3-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c3-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c3-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c3-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c3-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c3-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c3-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q02-T01",
+      "04-access-auth-admin-Q02-T02",
+      "04-access-auth-admin-Q02-T03",
+      "04-access-auth-admin-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c4-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c4-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c4-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c4-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c4-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c4-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c4-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c4-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c4-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c4-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c4-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c4-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q02-T01",
+      "04-access-auth-admin-Q02-T02",
+      "04-access-auth-admin-Q02-T03",
+      "04-access-auth-admin-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c5-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c5-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c5-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c5-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c5-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c5-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c5-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c5-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c5-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c5-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c5-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c5-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q03-T01",
+      "04-access-auth-admin-Q03-T02",
+      "04-access-auth-admin-Q03-T03",
+      "04-access-auth-admin-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c6-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c6-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c6-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c6-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c6-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c6-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c6-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c6-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c6-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c6-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c6-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c6-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q03-T01",
+      "04-access-auth-admin-Q03-T02",
+      "04-access-auth-admin-Q03-T03",
+      "04-access-auth-admin-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c7-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c7-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c7-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c7-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c7-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c7-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c7-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c7-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c7-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c7-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c7-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c7-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q04-T01",
+      "04-access-auth-admin-Q04-T02",
+      "04-access-auth-admin-Q04-T03",
+      "04-access-auth-admin-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c8-divider",
+    "newSlideIds": [
+      "04-access-auth-admin-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c8-definition",
+    "newSlideIds": [
+      "04-access-auth-admin-c8-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c8-mechanism",
+    "newSlideIds": [
+      "04-access-auth-admin-c8-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c8-case",
+    "newSlideIds": [
+      "04-access-auth-admin-c8-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c8-decision",
+    "newSlideIds": [
+      "04-access-auth-admin-c8-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c8-mistake",
+    "newSlideIds": [
+      "04-access-auth-admin-c8-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "c8-check",
+    "newSlideIds": [
+      "04-access-auth-admin-Q04-T01",
+      "04-access-auth-admin-Q04-T02",
+      "04-access-auth-admin-Q04-T03",
+      "04-access-auth-admin-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-scenario",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-artifact",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-compare",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-process",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-schema",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-discussion",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-review",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "practice-reflection",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "test-multi",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "test-order",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "test-match",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "test-diagram",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "test-short",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "test-self",
+    "newSlideIds": [
+      "04-access-auth-admin-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "cheat",
+    "newSlideIds": [
+      "04-access-auth-admin-summary"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "final",
+    "newSlideIds": [
+      "04-access-auth-admin-final"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "04-access-auth-admin",
+    "oldSlideId": "questions",
+    "newSlideIds": [
+      "04-access-auth-admin-questions"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "start",
+    "newSlideIds": [
+      "05-project-documentation-start"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "course-theme",
+    "newSlideIds": [
+      "05-project-documentation-start"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "main-literature",
+    "newSlideIds": [
+      "05-project-documentation-main-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "additional-literature",
+    "newSlideIds": [
+      "05-project-documentation-additional-literature"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "materials",
+    "newSlideIds": [
+      "05-project-documentation-materials"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "why",
+    "newSlideIds": [
+      "05-project-documentation-why"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "case",
+    "newSlideIds": [
+      "05-project-documentation-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "route",
+    "newSlideIds": [
+      "05-project-documentation-route"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "start-model",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "outcomes",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "artifact-path",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "diagnostic",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c1-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c1-definition",
+    "newSlideIds": [
+      "05-project-documentation-c1-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c1-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c1-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c1-case",
+    "newSlideIds": [
+      "05-project-documentation-c1-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c1-decision",
+    "newSlideIds": [
+      "05-project-documentation-c1-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c1-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c1-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c1-check",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01",
+      "05-project-documentation-Q01-T02",
+      "05-project-documentation-Q01-T03",
+      "05-project-documentation-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c2-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q01"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c2-definition",
+    "newSlideIds": [
+      "05-project-documentation-c2-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c2-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c2-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c2-case",
+    "newSlideIds": [
+      "05-project-documentation-c2-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c2-decision",
+    "newSlideIds": [
+      "05-project-documentation-c2-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c2-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c2-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c2-check",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01",
+      "05-project-documentation-Q01-T02",
+      "05-project-documentation-Q01-T03",
+      "05-project-documentation-Q01-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c3-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c3-definition",
+    "newSlideIds": [
+      "05-project-documentation-c3-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c3-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c3-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c3-case",
+    "newSlideIds": [
+      "05-project-documentation-c3-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c3-decision",
+    "newSlideIds": [
+      "05-project-documentation-c3-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c3-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c3-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c3-check",
+    "newSlideIds": [
+      "05-project-documentation-Q02-T01",
+      "05-project-documentation-Q02-T02",
+      "05-project-documentation-Q02-T03",
+      "05-project-documentation-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c4-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q02"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c4-definition",
+    "newSlideIds": [
+      "05-project-documentation-c4-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c4-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c4-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c4-case",
+    "newSlideIds": [
+      "05-project-documentation-c4-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c4-decision",
+    "newSlideIds": [
+      "05-project-documentation-c4-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c4-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c4-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c4-check",
+    "newSlideIds": [
+      "05-project-documentation-Q02-T01",
+      "05-project-documentation-Q02-T02",
+      "05-project-documentation-Q02-T03",
+      "05-project-documentation-Q02-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c5-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c5-definition",
+    "newSlideIds": [
+      "05-project-documentation-c5-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c5-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c5-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c5-case",
+    "newSlideIds": [
+      "05-project-documentation-c5-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c5-decision",
+    "newSlideIds": [
+      "05-project-documentation-c5-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c5-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c5-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c5-check",
+    "newSlideIds": [
+      "05-project-documentation-Q03-T01",
+      "05-project-documentation-Q03-T02",
+      "05-project-documentation-Q03-T03",
+      "05-project-documentation-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c6-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q03"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c6-definition",
+    "newSlideIds": [
+      "05-project-documentation-c6-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c6-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c6-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c6-case",
+    "newSlideIds": [
+      "05-project-documentation-c6-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c6-decision",
+    "newSlideIds": [
+      "05-project-documentation-c6-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c6-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c6-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c6-check",
+    "newSlideIds": [
+      "05-project-documentation-Q03-T01",
+      "05-project-documentation-Q03-T02",
+      "05-project-documentation-Q03-T03",
+      "05-project-documentation-Q03-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c7-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c7-definition",
+    "newSlideIds": [
+      "05-project-documentation-c7-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c7-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c7-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c7-case",
+    "newSlideIds": [
+      "05-project-documentation-c7-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c7-decision",
+    "newSlideIds": [
+      "05-project-documentation-c7-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c7-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c7-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c7-check",
+    "newSlideIds": [
+      "05-project-documentation-Q04-T01",
+      "05-project-documentation-Q04-T02",
+      "05-project-documentation-Q04-T03",
+      "05-project-documentation-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c8-divider",
+    "newSlideIds": [
+      "05-project-documentation-Q04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c8-definition",
+    "newSlideIds": [
+      "05-project-documentation-c8-definition"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c8-mechanism",
+    "newSlideIds": [
+      "05-project-documentation-c8-mechanism"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c8-case",
+    "newSlideIds": [
+      "05-project-documentation-c8-case"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c8-decision",
+    "newSlideIds": [
+      "05-project-documentation-c8-decision"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c8-mistake",
+    "newSlideIds": [
+      "05-project-documentation-c8-mistake"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "c8-check",
+    "newSlideIds": [
+      "05-project-documentation-Q04-T01",
+      "05-project-documentation-Q04-T02",
+      "05-project-documentation-Q04-T03",
+      "05-project-documentation-Q04-T04"
+    ],
+    "change": "Понятия сгруппированы попарно; старые повторные тесты заменены четырьмя типами вопроса."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-scenario",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-artifact",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-compare",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-process",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-schema",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-discussion",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-review",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "practice-reflection",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "test-multi",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "test-order",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "test-match",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "test-diagram",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "test-short",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "test-self",
+    "newSlideIds": [
+      "05-project-documentation-Q01-T01"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "cheat",
+    "newSlideIds": [
+      "05-project-documentation-summary"
+    ],
+    "change": "Повторная вводная/общая практика объединена с результатами и предметными разборами; открытые задания перенесены в обсуждение, неполные тесты заменены."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "final",
+    "newSlideIds": [
+      "05-project-documentation-final"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  },
+  {
+    "lectureId": "05-project-documentation",
+    "oldSlideId": "questions",
+    "newSlideIds": [
+      "05-project-documentation-questions"
+    ],
+    "change": "Сохранён смысл; данные адаптированы к общему макету и дополнены контекстом."
+  }
+]
