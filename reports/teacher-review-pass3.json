@@ -1,0 +1,2856 @@
+{
+  "version": "pisid4-2026.10.25-review3",
+  "sourceSha256": "87e3d9467b14de21b81a508666d234a5b12432154b1a9af7f3e8d527d49a66d0",
+  "slides": [
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-start",
+      "role": "title",
+      "estimatedSeconds": 23
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-main-literature",
+      "role": "literature",
+      "estimatedSeconds": 27
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-additional-literature",
+      "role": "literature",
+      "estimatedSeconds": 28
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-materials",
+      "role": "materials",
+      "estimatedSeconds": 26
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-route",
+      "role": "agenda",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-why",
+      "role": "theory",
+      "estimatedSeconds": 27
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-case",
+      "role": "example",
+      "estimatedSeconds": 36
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-entry",
+      "role": "theory",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-kod-context",
+      "role": "theory",
+      "estimatedSeconds": 36
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01",
+      "role": "section",
+      "estimatedSeconds": 37
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c1-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c1-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c1-case",
+      "role": "example",
+      "estimatedSeconds": 38
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c1-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c1-mistake",
+      "role": "failure",
+      "estimatedSeconds": 56
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c1-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c2-definition",
+      "role": "theory",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c2-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c2-case",
+      "role": "example",
+      "estimatedSeconds": 37
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c2-decision",
+      "role": "comparison",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c2-mistake",
+      "role": "failure",
+      "estimatedSeconds": 58
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c2-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01-terms",
+      "role": "theory",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01-worked",
+      "role": "trace",
+      "estimatedSeconds": 131
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01-practice",
+      "role": "independent case",
+      "estimatedSeconds": 263
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01-T01",
+      "role": "task",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01-T02",
+      "role": "task",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q01-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02",
+      "role": "section",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c3-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c3-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 62
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c3-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c3-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c3-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c3-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c4-definition",
+      "role": "theory",
+      "estimatedSeconds": 55
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c4-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 67
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c4-case",
+      "role": "example",
+      "estimatedSeconds": 36
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c4-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c4-mistake",
+      "role": "failure",
+      "estimatedSeconds": 57
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c4-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02-terms",
+      "role": "theory",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02-worked",
+      "role": "trace",
+      "estimatedSeconds": 110
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02-practice",
+      "role": "independent case",
+      "estimatedSeconds": 253
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02-T01",
+      "role": "task",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02-T02",
+      "role": "task",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q02-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03",
+      "role": "section",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c5-definition",
+      "role": "theory",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c5-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 62
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c5-case",
+      "role": "example",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c5-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c5-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c5-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c6-definition",
+      "role": "theory",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c6-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 66
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c6-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c6-decision",
+      "role": "comparison",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c6-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c6-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03-terms",
+      "role": "theory",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03-worked",
+      "role": "trace",
+      "estimatedSeconds": 108
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03-practice",
+      "role": "independent case",
+      "estimatedSeconds": 253
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03-T01",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03-T02",
+      "role": "task",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q03-T04",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04",
+      "role": "section",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c7-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c7-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 72
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c7-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c7-decision",
+      "role": "comparison",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c7-mistake",
+      "role": "failure",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c7-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 41
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c8-definition",
+      "role": "theory",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c8-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 92
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c8-case",
+      "role": "example",
+      "estimatedSeconds": 39
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c8-decision",
+      "role": "comparison",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c8-mistake",
+      "role": "failure",
+      "estimatedSeconds": 55
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-c8-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 41
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04-terms",
+      "role": "theory",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04-worked",
+      "role": "trace",
+      "estimatedSeconds": 131
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04-practice",
+      "role": "independent case",
+      "estimatedSeconds": 261
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04-T01",
+      "role": "task",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-Q04-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-summary",
+      "role": "summary",
+      "estimatedSeconds": 55
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-sources",
+      "role": "literature",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-final",
+      "role": "summary",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "01-customer-documents",
+      "id": "01-customer-documents-questions",
+      "role": "questions",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-start",
+      "role": "title",
+      "estimatedSeconds": 23
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-main-literature",
+      "role": "literature",
+      "estimatedSeconds": 27
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-additional-literature",
+      "role": "literature",
+      "estimatedSeconds": 28
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-materials",
+      "role": "materials",
+      "estimatedSeconds": 26
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-route",
+      "role": "agenda",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-why",
+      "role": "theory",
+      "estimatedSeconds": 28
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-case",
+      "role": "example",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-entry",
+      "role": "theory",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-kod-context",
+      "role": "theory",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01",
+      "role": "section",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c1-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c1-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 68
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c1-case",
+      "role": "example",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c1-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c1-mistake",
+      "role": "failure",
+      "estimatedSeconds": 57
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c1-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c2-definition",
+      "role": "theory",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c2-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 67
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c2-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c2-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c2-mistake",
+      "role": "failure",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c2-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01-terms",
+      "role": "theory",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01-worked",
+      "role": "trace",
+      "estimatedSeconds": 111
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01-practice",
+      "role": "independent case",
+      "estimatedSeconds": 256
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01-T01",
+      "role": "task",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01-T02",
+      "role": "task",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q01-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02",
+      "role": "section",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c3-definition",
+      "role": "theory",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c3-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 66
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c3-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c3-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c3-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c3-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c4-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c4-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 68
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c4-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c4-decision",
+      "role": "comparison",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c4-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c4-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 44
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02-terms",
+      "role": "theory",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02-worked",
+      "role": "trace",
+      "estimatedSeconds": 106
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02-practice",
+      "role": "independent case",
+      "estimatedSeconds": 256
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02-T01",
+      "role": "task",
+      "estimatedSeconds": 77
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02-T03",
+      "role": "task",
+      "estimatedSeconds": 81
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q02-T04",
+      "role": "task",
+      "estimatedSeconds": 81
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03",
+      "role": "section",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c5-definition",
+      "role": "theory",
+      "estimatedSeconds": 57
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c5-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c5-case",
+      "role": "example",
+      "estimatedSeconds": 39
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c5-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c5-mistake",
+      "role": "failure",
+      "estimatedSeconds": 57
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c5-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 46
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c6-definition",
+      "role": "theory",
+      "estimatedSeconds": 59
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c6-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c6-case",
+      "role": "example",
+      "estimatedSeconds": 44
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c6-decision",
+      "role": "comparison",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c6-mistake",
+      "role": "failure",
+      "estimatedSeconds": 59
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c6-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03-terms",
+      "role": "theory",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03-worked",
+      "role": "trace",
+      "estimatedSeconds": 123
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03-practice",
+      "role": "independent case",
+      "estimatedSeconds": 257
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03-T01",
+      "role": "task",
+      "estimatedSeconds": 77
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q03-T04",
+      "role": "task",
+      "estimatedSeconds": 81
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04",
+      "role": "section",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c7-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c7-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 70
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c7-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c7-decision",
+      "role": "comparison",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c7-mistake",
+      "role": "failure",
+      "estimatedSeconds": 59
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c7-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c8-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c8-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 68
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c8-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c8-decision",
+      "role": "comparison",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c8-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-c8-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 41
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04-terms",
+      "role": "theory",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04-worked",
+      "role": "trace",
+      "estimatedSeconds": 116
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04-practice",
+      "role": "independent case",
+      "estimatedSeconds": 255
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04-T01",
+      "role": "task",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-Q04-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-summary",
+      "role": "summary",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-sources",
+      "role": "literature",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-final",
+      "role": "summary",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "id": "02-conceptual-model-questions",
+      "role": "questions",
+      "estimatedSeconds": 37
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-start",
+      "role": "title",
+      "estimatedSeconds": 23
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-main-literature",
+      "role": "literature",
+      "estimatedSeconds": 26
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-additional-literature",
+      "role": "literature",
+      "estimatedSeconds": 27
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-materials",
+      "role": "materials",
+      "estimatedSeconds": 25
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-route",
+      "role": "agenda",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-why",
+      "role": "theory",
+      "estimatedSeconds": 26
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-case",
+      "role": "example",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-entry",
+      "role": "theory",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-kod-context",
+      "role": "theory",
+      "estimatedSeconds": 39
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01",
+      "role": "section",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c1-definition",
+      "role": "theory",
+      "estimatedSeconds": 49
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c1-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c1-case",
+      "role": "example",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c1-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c1-mistake",
+      "role": "failure",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c1-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c2-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c2-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 71
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c2-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c2-decision",
+      "role": "comparison",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c2-mistake",
+      "role": "failure",
+      "estimatedSeconds": 49
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c2-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01-terms",
+      "role": "theory",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01-worked",
+      "role": "trace",
+      "estimatedSeconds": 111
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01-practice",
+      "role": "independent case",
+      "estimatedSeconds": 266
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01-T01",
+      "role": "task",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01-T02",
+      "role": "task",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q01-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02",
+      "role": "section",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c3-definition",
+      "role": "theory",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c3-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c3-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c3-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c3-mistake",
+      "role": "failure",
+      "estimatedSeconds": 55
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c3-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 41
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c4-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c4-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c4-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c4-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c4-mistake",
+      "role": "failure",
+      "estimatedSeconds": 55
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c4-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02-terms",
+      "role": "theory",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02-worked",
+      "role": "trace",
+      "estimatedSeconds": 120
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02-practice",
+      "role": "independent case",
+      "estimatedSeconds": 258
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02-T01",
+      "role": "task",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q02-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03",
+      "role": "section",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c5-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c5-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 71
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c5-case",
+      "role": "example",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c5-decision",
+      "role": "comparison",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c5-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c5-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 41
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c6-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c6-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c6-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c6-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c6-mistake",
+      "role": "failure",
+      "estimatedSeconds": 56
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c6-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03-terms",
+      "role": "theory",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03-worked",
+      "role": "trace",
+      "estimatedSeconds": 116
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03-practice",
+      "role": "independent case",
+      "estimatedSeconds": 268
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03-T01",
+      "role": "task",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03-T02",
+      "role": "task",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q03-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04",
+      "role": "section",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c7-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c7-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c7-case",
+      "role": "example",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c7-decision",
+      "role": "comparison",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c7-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c7-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 39
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c8-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c8-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 69
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c8-case",
+      "role": "example",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c8-decision",
+      "role": "comparison",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c8-mistake",
+      "role": "failure",
+      "estimatedSeconds": 49
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-c8-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04-terms",
+      "role": "theory",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04-worked",
+      "role": "trace",
+      "estimatedSeconds": 116
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04-practice",
+      "role": "independent case",
+      "estimatedSeconds": 258
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04-T01",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-Q04-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-summary",
+      "role": "summary",
+      "estimatedSeconds": 49
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-sources",
+      "role": "literature",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-final",
+      "role": "summary",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "id": "03-ui-scenarios-questions",
+      "role": "questions",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-start",
+      "role": "title",
+      "estimatedSeconds": 22
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-main-literature",
+      "role": "literature",
+      "estimatedSeconds": 27
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-additional-literature",
+      "role": "literature",
+      "estimatedSeconds": 28
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-materials",
+      "role": "materials",
+      "estimatedSeconds": 26
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-route",
+      "role": "agenda",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-why",
+      "role": "theory",
+      "estimatedSeconds": 26
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-entry",
+      "role": "theory",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-kod-context",
+      "role": "theory",
+      "estimatedSeconds": 39
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01",
+      "role": "section",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c1-definition",
+      "role": "theory",
+      "estimatedSeconds": 55
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c1-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c1-case",
+      "role": "example",
+      "estimatedSeconds": 36
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c1-decision",
+      "role": "comparison",
+      "estimatedSeconds": 49
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c1-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c1-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 43
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c2-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c2-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 81
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c2-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c2-decision",
+      "role": "comparison",
+      "estimatedSeconds": 58
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c2-mistake",
+      "role": "failure",
+      "estimatedSeconds": 59
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c2-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 41
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01-terms",
+      "role": "theory",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01-worked",
+      "role": "trace",
+      "estimatedSeconds": 120
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01-practice",
+      "role": "independent case",
+      "estimatedSeconds": 258
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01-T01",
+      "role": "task",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q01-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02",
+      "role": "section",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c3-definition",
+      "role": "theory",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c3-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c3-case",
+      "role": "example",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c3-decision",
+      "role": "comparison",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c3-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c3-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c4-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c4-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c4-case",
+      "role": "example",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c4-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c4-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c4-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 41
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02-terms",
+      "role": "theory",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02-worked",
+      "role": "trace",
+      "estimatedSeconds": 121
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02-practice",
+      "role": "independent case",
+      "estimatedSeconds": 261
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02-T01",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q02-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03",
+      "role": "section",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c5-definition",
+      "role": "theory",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c5-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c5-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c5-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c5-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c5-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c6-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c6-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 71
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c6-case",
+      "role": "example",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c6-decision",
+      "role": "comparison",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c6-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c6-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03-terms",
+      "role": "theory",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03-worked",
+      "role": "trace",
+      "estimatedSeconds": 110
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03-practice",
+      "role": "independent case",
+      "estimatedSeconds": 253
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03-T01",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03-T02",
+      "role": "task",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q03-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04",
+      "role": "section",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c7-definition",
+      "role": "theory",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c7-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 73
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c7-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c7-decision",
+      "role": "comparison",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c7-mistake",
+      "role": "failure",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c7-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 39
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c8-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c8-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c8-case",
+      "role": "example",
+      "estimatedSeconds": 36
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c8-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c8-mistake",
+      "role": "failure",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-c8-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04-terms",
+      "role": "theory",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04-worked",
+      "role": "trace",
+      "estimatedSeconds": 114
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04-practice",
+      "role": "independent case",
+      "estimatedSeconds": 259
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04-T01",
+      "role": "task",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-Q04-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-summary",
+      "role": "summary",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-sources",
+      "role": "literature",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-final",
+      "role": "summary",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "id": "04-access-auth-admin-questions",
+      "role": "questions",
+      "estimatedSeconds": 36
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-start",
+      "role": "title",
+      "estimatedSeconds": 22
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-main-literature",
+      "role": "literature",
+      "estimatedSeconds": 26
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-additional-literature",
+      "role": "literature",
+      "estimatedSeconds": 27
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-materials",
+      "role": "materials",
+      "estimatedSeconds": 25
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-route",
+      "role": "agenda",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-why",
+      "role": "theory",
+      "estimatedSeconds": 28
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-case",
+      "role": "example",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-entry",
+      "role": "theory",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-kod-context",
+      "role": "theory",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01",
+      "role": "section",
+      "estimatedSeconds": 29
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c1-definition",
+      "role": "theory",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c1-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c1-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c1-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c1-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c1-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c2-definition",
+      "role": "theory",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c2-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c2-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c2-decision",
+      "role": "comparison",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c2-mistake",
+      "role": "failure",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c2-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01-terms",
+      "role": "theory",
+      "estimatedSeconds": 35
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01-worked",
+      "role": "trace",
+      "estimatedSeconds": 122
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01-practice",
+      "role": "independent case",
+      "estimatedSeconds": 264
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01-T01",
+      "role": "task",
+      "estimatedSeconds": 77
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01-T03",
+      "role": "task",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q01-T04",
+      "role": "task",
+      "estimatedSeconds": 81
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02",
+      "role": "section",
+      "estimatedSeconds": 28
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c3-definition",
+      "role": "theory",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c3-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c3-case",
+      "role": "example",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c3-decision",
+      "role": "comparison",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c3-mistake",
+      "role": "failure",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c3-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c4-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c4-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c4-case",
+      "role": "example",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c4-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c4-mistake",
+      "role": "failure",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c4-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-terms",
+      "role": "theory",
+      "estimatedSeconds": 32
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-worked",
+      "role": "trace",
+      "estimatedSeconds": 116
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-api-contract",
+      "role": "theory",
+      "estimatedSeconds": 44
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-api-transform",
+      "role": "structure",
+      "estimatedSeconds": 106
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-api-status",
+      "role": "structure",
+      "estimatedSeconds": 116
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-api-tests",
+      "role": "trace",
+      "estimatedSeconds": 120
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-practice",
+      "role": "independent case",
+      "estimatedSeconds": 256
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-T01",
+      "role": "task",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q02-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03",
+      "role": "section",
+      "estimatedSeconds": 28
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c5-definition",
+      "role": "theory",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c5-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c5-case",
+      "role": "example",
+      "estimatedSeconds": 39
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c5-decision",
+      "role": "comparison",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c5-mistake",
+      "role": "failure",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c5-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c6-definition",
+      "role": "theory",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c6-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 75
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c6-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c6-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c6-mistake",
+      "role": "failure",
+      "estimatedSeconds": 55
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c6-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-terms",
+      "role": "theory",
+      "estimatedSeconds": 31
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-worked",
+      "role": "trace",
+      "estimatedSeconds": 119
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-api-template",
+      "role": "structure",
+      "estimatedSeconds": 126
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-practice",
+      "role": "independent case",
+      "estimatedSeconds": 260
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-T01",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-T03",
+      "role": "task",
+      "estimatedSeconds": 78
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q03-T04",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04",
+      "role": "section",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c7-definition",
+      "role": "theory",
+      "estimatedSeconds": 51
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c7-mechanism",
+      "role": "structure",
+      "estimatedSeconds": 71
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c7-case",
+      "role": "example",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c7-decision",
+      "role": "comparison",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c7-mistake",
+      "role": "failure",
+      "estimatedSeconds": 50
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c7-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 40
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c8-definition",
+      "role": "theory",
+      "estimatedSeconds": 53
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c8-mechanism",
+      "role": "trace",
+      "estimatedSeconds": 79
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c8-case",
+      "role": "example",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c8-decision",
+      "role": "comparison",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c8-mistake",
+      "role": "failure",
+      "estimatedSeconds": 54
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-c8-notebook",
+      "role": "notebook",
+      "estimatedSeconds": 42
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-terms",
+      "role": "theory",
+      "estimatedSeconds": 33
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-worked",
+      "role": "trace",
+      "estimatedSeconds": 121
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-api-delivery",
+      "role": "notebook",
+      "estimatedSeconds": 48
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-practice",
+      "role": "independent case",
+      "estimatedSeconds": 266
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-T01",
+      "role": "task",
+      "estimatedSeconds": 76
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-T02",
+      "role": "task",
+      "estimatedSeconds": 74
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-T03",
+      "role": "task",
+      "estimatedSeconds": 80
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-Q04-T04",
+      "role": "task",
+      "estimatedSeconds": 81
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-summary",
+      "role": "summary",
+      "estimatedSeconds": 52
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-sources",
+      "role": "literature",
+      "estimatedSeconds": 34
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-final",
+      "role": "summary",
+      "estimatedSeconds": 30
+    },
+    {
+      "lecture": "05-project-documentation",
+      "id": "05-project-documentation-questions",
+      "role": "questions",
+      "estimatedSeconds": 37
+    }
+  ],
+  "caseWalkthroughs": [
+    "01-customer-documents-Q01-practice",
+    "01-customer-documents-Q02-practice",
+    "01-customer-documents-Q03-practice",
+    "01-customer-documents-Q04-practice",
+    "02-conceptual-model-Q01-practice",
+    "02-conceptual-model-Q02-practice",
+    "02-conceptual-model-Q03-practice",
+    "02-conceptual-model-Q04-practice",
+    "03-ui-scenarios-Q01-practice",
+    "03-ui-scenarios-Q02-practice",
+    "03-ui-scenarios-Q03-practice",
+    "03-ui-scenarios-Q04-practice",
+    "04-access-auth-admin-Q01-practice",
+    "04-access-auth-admin-Q02-practice",
+    "04-access-auth-admin-Q03-practice",
+    "04-access-auth-admin-Q04-practice",
+    "05-project-documentation-Q01-practice",
+    "05-project-documentation-Q02-practice",
+    "05-project-documentation-Q03-practice",
+    "05-project-documentation-Q04-practice"
+  ],
+  "timingBasis": "Estimate: 130 spoken words per minute, additional time for operations and independent attempts; no rehearsal claimed.",
+  "status": "passed"
+}

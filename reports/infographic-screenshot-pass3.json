@@ -1,0 +1,6 @@
+{
+  "url": "https://olgakraven.github.io/2026-PISID4-lecture/?lecture=04-access-auth-admin&slide=04-access-auth-admin-c2-mistake",
+  "observed": "Ошибочное решение\n\nПолагаться только на скрытие UI\n\n→\nПоследствие\n\nДействие нарушает границы полномочий или доступность.\n\n→\nИсправление и проверка\n\nПроверять роль, назначение и состояние заявки на сервере.\n\nНегативный тест API отклоняет действие без права",
+  "version": "pisid4-2026.10.25-student-review2",
+  "legacySvg": 0
+}

@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 import units from '../authoring/units.mjs';
 import {examUrl,official2027,examSlides} from '../authoring/exam2027.mjs';
 const old=JSON.parse(fs.readFileSync('authoring/source-course.json','utf8'));
-const version='pisid4-2026.10.25-student-review2';
+const version='pisid4-2026.10.25-review3';
 const c={schemaVersion:1,contentVersion:version,id:'pisid4',code:'МДК.05.01',discipline:'Проектирование и дизайн информационных систем',year:'2026–2027',heroTitle:'От документов заказчика',heroAccent:'к проектному решению',slogan:'4 курс · Анализируем, моделируем, объясняем решения.',mascot:'brand/rhino-designer.webp',mascotAlt:'Носорог-проектировщик с материалами информационной системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:old.materialsUrl,demo:false,semesters:[7],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};
 // Существующие библиографические описания сохраняются, без догадок об ISBN.
 const sources=fs.readFileSync('SOURCES.md','utf8').replace('ISBN 978-5-93026-166-10','ISBN в исходном описании требует уточнения');
@@ -93,7 +93,7 @@ for(const [li,t] of old.topics.entries()){
 // Объединяем повторные термины только при совпадении определения.
 const gl=new Map();for(const g of c.glossary){const k=g.term+'|'+g.definition;if(gl.has(k))gl.get(k).slideIds.push(...g.slideIds);else gl.set(k,g);}c.glossary=[...gl.values()];
 for(const dir of ['public','authoring','reports','private'])fs.mkdirSync(dir,{recursive:true});
-refineCourse(c,teacher,questionMap,registry);
+refineCourse(c,teacher,questionMap,registry,bank);
 for(const l of c.lectures)for(const s of l.slides)teacherSource.slides[s.id]={contentHash:digest(s),note:teacher.notes[s.id]};
 const write=(p,x)=>fs.writeFileSync(p,JSON.stringify(x,null,2)+'\n');
 write('public/course.json',c);write('public/assessment.json',bank);write('authoring/questions.json',questionMap);write('reports/registry.json',registry);write('reports/migration-map.json',mapping);

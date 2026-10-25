@@ -1,5 +1,5 @@
 {
-  "contentVersion": "pisid4-2026.10.25-review",
+  "contentVersion": "pisid4-2026.10.25-student-review2",
   "notes": {
     "01-customer-documents-start": {
       "script": "68d5e73622319ec50386ed24e4ae0f7bb0af6d32c4f2bbcde34d4f77f7c945f7",
@@ -3159,144 +3159,144 @@
       "answer": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "01-customer-documents-Q01-practice": {
-      "script": "11b813537ee5cd04fc61c7d54a29b5da3b012d9dfa616aed3c6e20eeac2caada",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "ab57484cf5f08637efec3ef58a253a473d49381da0fcfc849a8aed1e5e7282ec",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "bbb05d63980a3ab0a0b47db5b151cb6d4d84338c1f48e3afa892f8f4d6cd27e1"
+      "answer": "d8e5913b6310fb1295f391fb394b08d073e4c63b2664cc15c7bd0975d3feec85"
     },
     "01-customer-documents-Q02-practice": {
-      "script": "5306782f6d3d5571716968d6a07e96c0ef7de0d9bb1160c0d556a3e27b0e0c7f",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "f15e75e59c06d16a07b8d100f7edddec93de763e3615db459c023a57b118ffef",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "cab2f3b045d895f8067b5aedd3d3acafa88cddfb219fe310f919a4011451dfb2"
+      "answer": "c0ea4c384b20afb4708dc0d711aa6aed44fe3f3bebeeb3a8e6aa1be49efa2692"
     },
     "01-customer-documents-Q03-practice": {
-      "script": "d031ef4891997710200405fe8500ee073a75df0635cfa12bfbb29407fc7ee8de",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "1a69154345ba7649f1c92c0868926ae9edf1590c7518f51656fcc3f2d9e3ca8b",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "6590ffd58585cfea83dfab0ad4d65b7d345bbf5e2ef28d8067a969d4ce9dabd7"
+      "answer": "ef0ba6b7535c02ffc05855598be5f5b98235475ce431aab8d8f6bb61452d750c"
     },
     "01-customer-documents-Q04-practice": {
-      "script": "2cde5009095a4f7052ac6a710fd15f3a3a134ff15dd3bd24ad9503d55c9c2644",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "109dd700299f419531451efcc0723d8ecf0514151f0da94c7941c8270ed8b703",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "d9fd55830bcf3d2625e68684fd37742ad22aaa475bc15f148904bebcd493d86c"
+      "answer": "486935d7521051a00aadeb5bedf1a42265c3e323c354e747e2aa90f9b4e00e85"
     },
     "02-conceptual-model-Q01-practice": {
-      "script": "025752ffda7c232eec0ece055870206ee8b3a8c9502fb52cd3c00ca4aa263c44",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "7732d19668ee194f64627576916ae64d181b10d6fc0a63de394f319b9e280518",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "8c744e4db643f01bf9cc049c5e86e3a4bb74cf304c634dc73ff71317e39c0760"
+      "answer": "e6156f0cf974d131d48c10335a78371bd80f68620249cf4a5e2513de3d75c2a0"
     },
     "02-conceptual-model-Q02-practice": {
-      "script": "0eb53dd024d5c0a980ffa3dd6b75c7240e418b6fae1a5d3bcd6fefa8f5435dee",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "13a65b32a0d0c5327124d8f49ee1019210398398112e6c0c8c6ddfcfe025c87c",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "4ea3dd05fbe491e482ad75ae1113f51b22179a074bd74bdf398b1e3da2fcf491"
+      "answer": "77f4a213c6ac9172a33ea8cd717bf275db2d78283a0b40aa315232227ee3a301"
     },
     "02-conceptual-model-Q03-practice": {
-      "script": "3990bb8eb6efc347c482f9af1688c77f0be2838b57fdb036a6bd204cbd4528df",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "b35b540caa6b80410666df19b02f42915e9fcb3b4bb5cb4ddee920a170017ad5",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "feb410ec529defd649b1f6d4391af9ef2ed917f63cc178e1a65fc796493fd5bf"
+      "answer": "0158fa3c2de9aefb8315df1cf180eb0f5dabda7b7126514b7b2f491832c6c449"
     },
     "02-conceptual-model-Q04-practice": {
-      "script": "8197bfcc10569ebc96f6fb1549170d77916bf03f2e08584f0d1560bd2b7df483",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "a0f6c4b1f62e884dfe56e975c8c7213ccfeebad3108cd597dddfa119e84b8e24",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "09100433542b632353343c9825af937a7576596d58a3985fb88158213712abf8"
+      "answer": "6a25df7be068eeba2c2b52d760716a995a6fe7e10e3117187ca9afc6907bf24a"
     },
     "03-ui-scenarios-Q01-practice": {
-      "script": "70fc2133e3f729f163a8944c5bfb38e0c24e8619eddcec1ced0525765a154e14",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "068c7b31d9871caa12f794f2a125f0a7bf46a6f8c3df4bd479cc81a2e870e18e",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "5e41cbec840ff6624e0d5c2bd6d7f13883546d45913251ebe190fecd369ecc84"
+      "answer": "2c985895523ac00c73127ba57fc211d4e4181915aa1994334ab948a4ad3408f5"
     },
     "03-ui-scenarios-Q02-practice": {
-      "script": "ce57a2a20cc264560564abd0bb341891ac2fc81ffd3b788e9b5e6bf283c0a595",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "7fc544dc55dcd4ad7fe82943e37c1bdb0db90a621f0601375e566b432f844f84",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "829b6c186d50f0e07e49ba8e6d92d2361213cf54087fc78d3c678e080fa271d6"
+      "answer": "e9af96f6ae8523d683eeee84aa90a1e2a976a8bfa36b119e45c421ffd74583d7"
     },
     "03-ui-scenarios-Q03-practice": {
-      "script": "3d6384bd7ed7ad268dfbb8763de8cbf00683e8ff363bb6f4bd400d842a7976ea",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "b50bc912ef06d30209ba6356cb058782f96b812e09f9f4f0d3ac80626197cd4a",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "caa830b774a02dff323df846a73ca04a331a46ace99dda109cd9fd11cb8d5dd7"
+      "answer": "55ca792e8655eb5a5fd5ac26615f755db0ae5a1613c5260453512d75d1336977"
     },
     "03-ui-scenarios-Q04-practice": {
-      "script": "123bb7e1975568ae1bfaa87f8ea00210a56f968caa1bd8c32ce4e1ec21202e1d",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "0ff2ed137388005ccd55934a4e6606beea7c2ffc94708cac0ccf136b571af28f",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "d3303381dd21409967520e1d502c762b6ebe6a1de1a1da5beda3bb4f5e0500a8"
+      "answer": "9828207ce2cdd323a0725aa405f2ef80eac8de6120ef846da7a0594d74da2536"
     },
     "04-access-auth-admin-Q01-practice": {
-      "script": "8deac1f9926642f9283526f9f48a94625003d4a96bf03a12c6ecccbd75935ff7",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "4d52985d3961a94fccd3e2820e1ef2bb42bc8e299bc9fce0436edb4ceea502ff",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "a8a0defb398c9465be8d2487b60387731c1467cea8037709509b6190668c41ee"
+      "answer": "89144b9c4f82d7b2c9626cf1d1882cba5857ff6be93b6ae77d519e4fd9e911e0"
     },
     "04-access-auth-admin-Q02-practice": {
-      "script": "778da0470013b2220d5b0f19a5acfff1506b24d35cab10ea2b322eaf6ee46e27",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "8e2ad5697b99270e57ef39f7f19c69dd8fd6ef944795b45b785ed061792cd56c",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "ecdadc3fe90acdcc630432f2128c04b91cec7a39c2b963f8c6eb74bd19f9773e"
+      "answer": "64dbe950c70e1c62fd227817ab72979149436ac2df8203b8dfdb56a0b17031fd"
     },
     "04-access-auth-admin-Q03-practice": {
-      "script": "ef8b5aadc13fc30ecb44268b6d65f1b5df77623aa102d8b12f3f87fed702987e",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "4b3562a41027c3cc4c93c4f87102d738ed1ec795c3e58ee894604c078c723874",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "ffe39595d75d0e1c65e804ad2348b42067f3fc059a728712044d95a37b3c89fa"
+      "answer": "5854f135958682ab18d291a87e6c1900f85e47d5d56c8e4bdcf8a900955625a6"
     },
     "04-access-auth-admin-Q04-practice": {
-      "script": "11c39db7585e97730eed2b99cac41dc3a3c91378a0ee0737c25b441e075fc22b",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "0383c4b51066d131f7ced800d5cd8db2e4a24ffc48a2980da117ffbdca98da70",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "9eefc21c77919616913d42e0c931ead2a8d506126c6eac106bc7c0d15a91cd9f"
+      "answer": "403838158c22734b25850f5ec57545b80e0dc40d8b4b1f88529335242626f8c7"
     },
     "05-project-documentation-Q01-practice": {
-      "script": "9d86f4202e43f3ce9d5df18160e986db7064d42c6f54bd3a7da34b8d4802416c",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "574a8a464381f31479454ac7a0332863133ee34d654f5c99a9df22c4aad604d3",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "78a2968b9e8da8a4356017b937dfcb125d5cd43cf7710a1a5ee7eb64b4b006a5"
+      "answer": "34173e0eedd91a614c0398c2e3b7d721dca10e0da49942584346359a19c8a0db"
     },
     "05-project-documentation-Q02-practice": {
-      "script": "ce8651abeec7d9a19e2b092d3ce5d7ef2a45938d45f620ab1ecb4ec9e7dd8213",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "25609462906dacc4aaba970f785ec44d549464bb850f3827793a51389aa65b13",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "96374e5256a3ac0d0705806c2c32fb850498687273fc38e02ccaaceb06c0e5a6"
+      "answer": "120223a9f3aee62eb529eed968f18c83d40af7f8f347ceca41a92e1ef15f0594"
     },
     "05-project-documentation-Q03-practice": {
-      "script": "aa6d83df8f4a1d688740d50c428acaecfadc75162c662b3ac554ba521bc463e8",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "e5c33a558b6469ad3833bcff099feb75d92cc9314d8fb6d3ad5d8b8c609ca02f",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "f6a5538b7e377edabf4730d5d0fadbc2a48ac52ec1d9ffe25d531454b7b39f30"
+      "answer": "72ad43e73eb2cd1d19ab17dac98b4b6c536bb7f507325770231c58a1b8662410"
     },
     "05-project-documentation-Q04-practice": {
-      "script": "af0d29351641cbe90144aed1e6c3439a0b7f08e6dd646cf16d9c8fc370a82de3",
-      "preparation": "ab97feb405820ed688a106bfdb97feb44b97915af2fb4d296cc840cee2dc638a",
+      "script": "ceb89cdabf8e0bfb612a6007520e910819992528567733558a828a7b628aaea6",
+      "preparation": "890394258575a0b85bce100cb2adb30c2e54f580e07b66078f4c61c6002cc927",
       "notebook": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "questions": "b38c97cb3c4b28364274aae3309ff7a7115e0dea64767eaf49f834a893c6f96f",
-      "answer": "20ec30d5b668db11f5130f5687f0d731928b8cf96f1761eba7378f0381fd0e68"
+      "answer": "5a6e865050878b5ae2276233e3c9ce7c949c43e3919f07880ffc637ed8e58635"
     }
   }
 }

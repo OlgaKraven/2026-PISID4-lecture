@@ -8,13 +8,13 @@
     "questions": 4,
     "tasks": 16,
     "visuals": 28,
-    "contentVersion": "pisid4-2026.10.25-student-review2",
+    "contentVersion": "pisid4-2026.10.25-review3",
     "source": "app/course.ts + app/course-data.ts (исходная версия)",
     "data": "собрано",
     "teacher": "собрано",
     "pdf": "запланировано",
     "checks": "запланировано",
-    "estimatedMinutes": 141
+    "estimatedMinutes": 98
   },
   {
     "lectureId": "02-conceptual-model",
@@ -25,13 +25,13 @@
     "questions": 4,
     "tasks": 16,
     "visuals": 28,
-    "contentVersion": "pisid4-2026.10.25-student-review2",
+    "contentVersion": "pisid4-2026.10.25-review3",
     "source": "app/course.ts + app/course-data.ts (исходная версия)",
     "data": "собрано",
     "teacher": "собрано",
     "pdf": "запланировано",
     "checks": "запланировано",
-    "estimatedMinutes": 141
+    "estimatedMinutes": 98
   },
   {
     "lectureId": "03-ui-scenarios",
@@ -42,13 +42,13 @@
     "questions": 4,
     "tasks": 16,
     "visuals": 28,
-    "contentVersion": "pisid4-2026.10.25-student-review2",
+    "contentVersion": "pisid4-2026.10.25-review3",
     "source": "app/course.ts + app/course-data.ts (исходная версия)",
     "data": "собрано",
     "teacher": "собрано",
     "pdf": "запланировано",
     "checks": "запланировано",
-    "estimatedMinutes": 141
+    "estimatedMinutes": 97
   },
   {
     "lectureId": "04-access-auth-admin",
@@ -59,13 +59,13 @@
     "questions": 4,
     "tasks": 16,
     "visuals": 28,
-    "contentVersion": "pisid4-2026.10.25-student-review2",
+    "contentVersion": "pisid4-2026.10.25-review3",
     "source": "app/course.ts + app/course-data.ts (исходная версия)",
     "data": "собрано",
     "teacher": "собрано",
     "pdf": "запланировано",
     "checks": "запланировано",
-    "estimatedMinutes": 141
+    "estimatedMinutes": 97
   },
   {
     "lectureId": "05-project-documentation",
@@ -76,12 +76,12 @@
     "questions": 4,
     "tasks": 16,
     "visuals": 32,
-    "contentVersion": "pisid4-2026.10.25-student-review2",
+    "contentVersion": "pisid4-2026.10.25-review3",
     "source": "app/course.ts + app/course-data.ts (исходная версия)",
     "data": "собрано",
     "teacher": "собрано",
     "pdf": "запланировано",
     "checks": "запланировано",
-    "estimatedMinutes": 150
+    "estimatedMinutes": 107
   }
 ]

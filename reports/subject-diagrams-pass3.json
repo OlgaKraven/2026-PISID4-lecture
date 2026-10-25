@@ -1,0 +1,318 @@
+{
+  "stage": 2,
+  "version": "pisid4-2026.10.25-review3",
+  "url": "http://127.0.0.1:4184/2026-PISID4-lecture/",
+  "checkedAt": "2026-10-25T15:59:31.689Z",
+  "bindings": [
+    {
+      "lecture": "01-customer-documents",
+      "theme": "light",
+      "count": 28
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "theme": "light",
+      "count": 28
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "theme": "light",
+      "count": 28
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "theme": "light",
+      "count": 28
+    },
+    {
+      "lecture": "05-project-documentation",
+      "theme": "light",
+      "count": 32
+    },
+    {
+      "lecture": "01-customer-documents",
+      "theme": "dark",
+      "count": 28
+    },
+    {
+      "lecture": "02-conceptual-model",
+      "theme": "dark",
+      "count": 28
+    },
+    {
+      "lecture": "03-ui-scenarios",
+      "theme": "dark",
+      "count": 28
+    },
+    {
+      "lecture": "04-access-auth-admin",
+      "theme": "dark",
+      "count": 28
+    },
+    {
+      "lecture": "05-project-documentation",
+      "theme": "dark",
+      "count": 32
+    }
+  ],
+  "views": [
+    {
+      "index": 24,
+      "slide": "01-customer-documents-c1-mistake"
+    },
+    {
+      "index": 25,
+      "slide": "01-customer-documents-c2-mistake"
+    },
+    {
+      "index": 0,
+      "slide": "01-customer-documents-Q01-worked"
+    },
+    {
+      "index": 26,
+      "slide": "01-customer-documents-c3-mistake"
+    },
+    {
+      "index": 27,
+      "slide": "01-customer-documents-c4-mistake"
+    },
+    {
+      "index": 1,
+      "slide": "01-customer-documents-Q02-worked"
+    },
+    {
+      "index": 28,
+      "slide": "01-customer-documents-c5-mistake"
+    },
+    {
+      "index": 29,
+      "slide": "01-customer-documents-c6-mistake"
+    },
+    {
+      "index": 2,
+      "slide": "01-customer-documents-Q03-worked"
+    },
+    {
+      "index": 30,
+      "slide": "01-customer-documents-c7-mistake"
+    },
+    {
+      "index": 31,
+      "slide": "01-customer-documents-c8-mistake"
+    },
+    {
+      "index": 3,
+      "slide": "01-customer-documents-Q04-worked"
+    },
+    {
+      "index": 32,
+      "slide": "02-conceptual-model-c1-mistake"
+    },
+    {
+      "index": 33,
+      "slide": "02-conceptual-model-c2-mistake"
+    },
+    {
+      "index": 4,
+      "slide": "02-conceptual-model-Q01-worked"
+    },
+    {
+      "index": 34,
+      "slide": "02-conceptual-model-c3-mistake"
+    },
+    {
+      "index": 35,
+      "slide": "02-conceptual-model-c4-mistake"
+    },
+    {
+      "index": 5,
+      "slide": "02-conceptual-model-Q02-worked"
+    },
+    {
+      "index": 36,
+      "slide": "02-conceptual-model-c5-mistake"
+    },
+    {
+      "index": 37,
+      "slide": "02-conceptual-model-c6-mistake"
+    },
+    {
+      "index": 6,
+      "slide": "02-conceptual-model-Q03-worked"
+    },
+    {
+      "index": 38,
+      "slide": "02-conceptual-model-c7-mistake"
+    },
+    {
+      "index": 39,
+      "slide": "02-conceptual-model-c8-mistake"
+    },
+    {
+      "index": 7,
+      "slide": "02-conceptual-model-Q04-worked"
+    },
+    {
+      "index": 40,
+      "slide": "03-ui-scenarios-c1-mistake"
+    },
+    {
+      "index": 41,
+      "slide": "03-ui-scenarios-c2-mistake"
+    },
+    {
+      "index": 8,
+      "slide": "03-ui-scenarios-Q01-worked"
+    },
+    {
+      "index": 42,
+      "slide": "03-ui-scenarios-c3-mistake"
+    },
+    {
+      "index": 43,
+      "slide": "03-ui-scenarios-c4-mistake"
+    },
+    {
+      "index": 9,
+      "slide": "03-ui-scenarios-Q02-worked"
+    },
+    {
+      "index": 44,
+      "slide": "03-ui-scenarios-c5-mistake"
+    },
+    {
+      "index": 45,
+      "slide": "03-ui-scenarios-c6-mistake"
+    },
+    {
+      "index": 10,
+      "slide": "03-ui-scenarios-Q03-worked"
+    },
+    {
+      "index": 46,
+      "slide": "03-ui-scenarios-c7-mistake"
+    },
+    {
+      "index": 47,
+      "slide": "03-ui-scenarios-c8-mistake"
+    },
+    {
+      "index": 11,
+      "slide": "03-ui-scenarios-Q04-worked"
+    },
+    {
+      "index": 48,
+      "slide": "04-access-auth-admin-c1-mistake"
+    },
+    {
+      "index": 49,
+      "slide": "04-access-auth-admin-c2-mistake"
+    },
+    {
+      "index": 12,
+      "slide": "04-access-auth-admin-Q01-worked"
+    },
+    {
+      "index": 50,
+      "slide": "04-access-auth-admin-c3-mistake"
+    },
+    {
+      "index": 51,
+      "slide": "04-access-auth-admin-c4-mistake"
+    },
+    {
+      "index": 13,
+      "slide": "04-access-auth-admin-Q02-worked"
+    },
+    {
+      "index": 52,
+      "slide": "04-access-auth-admin-c5-mistake"
+    },
+    {
+      "index": 53,
+      "slide": "04-access-auth-admin-c6-mistake"
+    },
+    {
+      "index": 14,
+      "slide": "04-access-auth-admin-Q03-worked"
+    },
+    {
+      "index": 54,
+      "slide": "04-access-auth-admin-c7-mistake"
+    },
+    {
+      "index": 55,
+      "slide": "04-access-auth-admin-c8-mistake"
+    },
+    {
+      "index": 15,
+      "slide": "04-access-auth-admin-Q04-worked"
+    },
+    {
+      "index": 56,
+      "slide": "05-project-documentation-c1-mistake"
+    },
+    {
+      "index": 57,
+      "slide": "05-project-documentation-c2-mistake"
+    },
+    {
+      "index": 16,
+      "slide": "05-project-documentation-Q01-worked"
+    },
+    {
+      "index": 58,
+      "slide": "05-project-documentation-c3-mistake"
+    },
+    {
+      "index": 59,
+      "slide": "05-project-documentation-c4-mistake"
+    },
+    {
+      "index": 17,
+      "slide": "05-project-documentation-Q02-worked"
+    },
+    {
+      "index": 20,
+      "slide": "05-project-documentation-Q02-api-transform"
+    },
+    {
+      "index": 21,
+      "slide": "05-project-documentation-Q02-api-status"
+    },
+    {
+      "index": 22,
+      "slide": "05-project-documentation-Q02-api-tests"
+    },
+    {
+      "index": 60,
+      "slide": "05-project-documentation-c5-mistake"
+    },
+    {
+      "index": 61,
+      "slide": "05-project-documentation-c6-mistake"
+    },
+    {
+      "index": 18,
+      "slide": "05-project-documentation-Q03-worked"
+    },
+    {
+      "index": 23,
+      "slide": "05-project-documentation-Q03-api-template"
+    },
+    {
+      "index": 62,
+      "slide": "05-project-documentation-c7-mistake"
+    },
+    {
+      "index": 63,
+      "slide": "05-project-documentation-c8-mistake"
+    },
+    {
+      "index": 19,
+      "slide": "05-project-documentation-Q04-worked"
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

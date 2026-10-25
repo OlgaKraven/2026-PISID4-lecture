@@ -1,3 +1,7 @@
+import {subjectModels} from './subject-models.mjs';
+import {makeConceptModels} from './concept-models.mjs';
+import {reviewStudentCourse} from './student-revision.mjs';
+import {reviewTeacherCourse} from './teacher-revision.mjs';
 import fs from 'node:fs';
 import units from './units.mjs';
 import {makePractice} from './practice.mjs';
@@ -14,7 +18,7 @@ const definitions = [
  'Первичный ключ (PK) — выбранный кандидатный ключ таблицы: минимальный набор атрибутов, однозначно идентифицирующий строку; значения PK не допускают NULL.',
  'Внешний ключ (FK) — набор атрибутов, чьи непустые значения должны соответствовать допустимому уникальному ключу связанной таблицы по правилам СУБД.',
  'Первая нормальная форма (1НФ) — форма отношения, в которой каждый атрибут кортежа содержит одно значение своего домена, без повторяющихся групп.',
- 'Вторая нормальная форма (2НФ) — 1НФ, в которой каждый неключевой атрибут полностью функционально зависит от каждого кандидатного ключа.',
+ 'Вторая нормальная форма (2НФ) — 1НФ, в которой каждый атрибут, не входящий ни в один кандидатный ключ, полностью функционально зависит от каждого кандидатного ключа.',
  'Третья нормальная форма (3НФ) — форма отношения, в которой для каждой нетривиальной зависимости X → A либо X является суперключом, либо A входит в некоторый кандидатный ключ.',
  'Связь M:N — отношение, при котором каждому объекту любой из двух сторон может соответствовать несколько объектов другой стороны.',
  'Ссылочная целостность — согласованность ссылок между таблицами, поддерживаемая внешними ключами и выбранными правилами изменения и удаления.',
@@ -44,8 +48,9 @@ const definitions = [
  'Экзаменационный комплект — набор результатов, передаваемых по условиям задания и согласованных между собой по содержанию и формату.',
 ];
 const firstSentence = text => text.match(/^.*?[.!?](?:\s|$)/)?.[0].trim() || text;
-export function refineCourse(course, teacher, questions, registry) {
+export function refineCourse(course, teacher, questions, registry, bank) {
  const old=JSON.parse(fs.readFileSync('authoring/source-course.json','utf8'));
+ const models=[...subjectModels,...makeConceptModels(subjectModels,old.topics)];
  const baseline=JSON.parse(fs.readFileSync('authoring/baseline-note-hashes.json','utf8'));
  const practices=makePractice(course.lectures,units);
  for(const [li,lecture] of course.lectures.entries()){
@@ -65,6 +70,7 @@ export function refineCourse(course, teacher, questions, registry) {
    }
    if(slide.id.endsWith('-entry'))slide.bullets=['Различаем исходный факт, допущение и проектное решение.','Проверяем решение по успешному и отрицательному случаю.','Связываем данные, правила, интерфейс и результат проверки.'];
    if(slide.kind==='section'&&unit)slide.body=unit.input;
+   if(slide.visual&&unit){slide.visual.modelIndex=conceptNumber?24+li*8+conceptNumber-1:li*4+questionNumber-1;slide.visual.subjectView=slide.id.endsWith('-mistake')?'failure':slide.id.endsWith('-decision')?'comparison':slide.id.endsWith('-worked')||conceptNumber%2===0?'trace':'structure';}
    const note=teacher.notes[slide.id];if(!note)continue;
    note.notebook=slide.notebook||'';
    if(slide.task){
@@ -92,6 +98,9 @@ export function refineCourse(course, teacher, questions, registry) {
    const normalization=lecture.slides.find(s=>s.id.endsWith('-Q03-worked'));
    normalization.visual={type:'comparison',columns:['Зависимость','Результат разложения'],rows:[['part_id → part_name','spare_part(part_id PK, part_name)'],['(visit_id,part_id) → quantity','visit_part(visit_id FK,part_id FK,quantity); PK — пара'],['client_id → current_client_address','client(client_id PK,current_client_address)']],caption:'Условия примера: указанные зависимости и ключи подтверждены. Снимок адреса визита описывает другой факт.'};
   }
+  for(const slide of lecture.slides)if(slide.visual&&!('modelIndex' in slide.visual)){const q=Number(slide.id.match(/-Q0?(\d)/)?.[1]);slide.visual.modelIndex=li*4+q-1;slide.visual.subjectView='trace';}
+  for(const slide of lecture.slides)if(slide.visual){const extra=['api-transform','api-status','api-tests','api-template'].findIndex(id=>slide.id.endsWith('-'+id));if(extra>=0){slide.visual.modelIndex=20+extra;slide.visual.subjectView=extra===2?'trace':'structure';}}
+  for(const slide of lecture.slides)if(slide.visual)slide.visual.caption=models[slide.visual.modelIndex].title;
   for(const practice of practices.filter(p=>p.lectureId===lecture.id)){
    const qi=Number(practice.id.match(/Q(\d+)/)[1]),position=lecture.slides.findIndex(s=>s.id===`${lecture.id}-Q0${qi}-T01`);
    const slide={id:practice.returnSlide,kind:'example',title:practice.title,kicker:`Вопрос ${qi} · Самостоятельный случай`};
@@ -106,5 +115,8 @@ export function refineCourse(course, teacher, questions, registry) {
  teacher.noteMigrations=JSON.parse(fs.readFileSync('authoring/note-migrations.json','utf8'));
  teacher.previousContentVersion=baseline.contentVersion;
  teacher.previousNoteHashes=baseline.notes;
+ reviewStudentCourse(course,models);
+ reviewTeacherCourse(course,teacher,bank,practices,models,units,registry);
+ fs.writeFileSync('public/subject-diagrams.json',JSON.stringify(models,null,2)+'\n');
  fs.writeFileSync('public/practice-cases.json',JSON.stringify(practices,null,2)+'\n');
 }

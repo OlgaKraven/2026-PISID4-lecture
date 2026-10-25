@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "courseId": "pisid4",
-  "contentVersion": "pisid4-2026.10.25-student-review2",
+  "contentVersion": "pisid4-2026.10.25-review3",
   "sourceKind": "local",
-  "sourceSha256": "7defffae66ba8a59fbd758fa2dbb945438eb012762c426a7dbabb49db0cb86ca",
+  "sourceSha256": "87e3d9467b14de21b81a508666d234a5b12432154b1a9af7f3e8d527d49a66d0",
   "lectureIds": [
     "05-project-documentation"
   ],

@@ -10,8 +10,9 @@ for(const lecture of course.lectures){
  const slides=[];
  for(const [index,s] of lecture.slides.entries()){
   const n=pack.notes[s.id],anchor='screen-'+String(index+1).padStart(3,'0');
-  teacher.push(`<a id="${anchor}"></a>\n\n## ${s.title}\n\n${n.script}${s.id.endsWith("-practice")?"\n\nРазбор после попытки. "+n.answer:""}`);
-  presenter.push(`<a id="${anchor}"></a>\n\n## Слайд ${index+1}. ${s.title}\n\n${n.script}\n\n**Подготовка:** ${n.preparation}${n.notebook?'\n\n**Запишите:** '+n.notebook:''}${n.questions?'\n\n**Вопросы:**\n\n'+n.questions:''}${n.answer?'\n\n**Разбор для преподавателя:**\n\n'+n.answer:''}`);
+  const speech=n.script.replace(/Показ: нажмите «Развернуть схему», затем «Обзор»\. /g,'').replace(/Показ: «Далее по схеме», шаг (\d+)\. /g,'Шаг $1. ').replace(/\n\nПоказ: «Назад по схеме» возвращает предыдущее объяснение; «Обзор» — исходную таблицу или схему\. Закройте окно клавишей Escape\./g,'');
+  teacher.push(`<a id="${anchor}"></a>\n\n## ${s.title}\n\n${speech}${n.questions?'\n\nВопросы для обсуждения: '+n.questions:''}${n.answer?'\n\n'+(s.task||s.id.endsWith('-practice')?'Разбор после самостоятельной попытки. ':'Ожидаемое рассуждение. ')+n.answer:''}`);
+  presenter.push(`<a id="${anchor}"></a>\n\n## Слайд ${index+1}. ${s.title}\n\n<!-- source-slide: ${s.id} -->\n\n${n.script}\n\n**Подготовка:** ${n.preparation}${n.notebook?'\n\n**Запишите:** '+n.notebook:''}${n.questions?'\n\n**Вопросы:**\n\n'+n.questions:''}${n.answer?'\n\n**Разбор для преподавателя:**\n\n'+n.answer:''}`);
   slides.push({lectureId:lecture.id,slideId:s.id,displayNumber:index+1,title:s.title,anchors:{teacher:anchor,presenter:anchor}});
  }
  await fs.writeFile(path.join(dir,'lecture.teacher.md'),teacher.join('\n\n').replace(/[ \t]+$/gm,'')+'\n');

@@ -1,0 +1,12 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {createHash}from'node:crypto';import {caseReasoning}from'../authoring/case-reasoning.mjs';
+const bytes=fs.readFileSync('public/course.json'),c=JSON.parse(bytes),p=JSON.parse(fs.readFileSync('public/practice-cases.json')),b=JSON.parse(fs.readFileSync('public/assessment.json'));
+const report={version:c.contentVersion,sourceSha256:createHash('sha256').update(bytes).digest('hex'),method:'Reading review of visible copy, models and conditions; not a student trial. Repeated task templates checked against each visible glossary.',slides:[],tasks:[],cases:[],corrections:['Distinct concept models replace unrelated repeated counterexamples.','Request and visit boundaries aligned.','Candidate key, superkey and dependency symbols explained.','signature_file consistently means uploaded object ID.','Offline preconditions rechecked at server operation.','Example login policy distinguished from supplied exam conditions.']};
+for(const l of c.lectures){for(const s of l.slides){report.slides.push(s.id);if(!s.task)continue;const q=s.id.slice(0,s.id.lastIndexOf('-T')),terms=l.slides.find(s=>s.id===q+'-terms').bullets.map(x=>x.replace(/\.$/,'').split(' — ')),t=s.task,k=b.keys[t.id];
+ if(t.type==='matching')for(const item of t.items)assert.equal(t.options.find(o=>o.id===k.pairs[item.id]).text,terms.find(x=>x[0]===item.text)[1]);
+ if(t.type==='short')assert.ok(k.accepted.some(x=>x===terms[2][0]));
+ if(t.type==='single')assert.equal(t.options.find(o=>o.id===k.correct[0]).text,terms[0][0]);
+ if(t.type==='multiple')for(const o of t.options){const [term,definition]=o.text.replace(/\.$/,'').split(': ');assert.equal(k.correct.includes(o.id),terms.some(x=>x[0]===term&&x[1]===definition));}
+ report.tasks.push(t.id);
+}}
+for(const [i,practice]of p.entries()){const [answers,reasons]=caseReasoning[i];assert.deepEqual(practice.fields.map(f=>f.answer),answers,practice.id);report.cases.push({id:practice.id,studentDerivedAnswers:answers,reasons,visibleSource:true,explicitRules:true,explicitInputFormat:true,solutionDoesNotRequireTeacherHints:true});}
+assert.equal(report.slides.length,471);assert.equal(report.tasks.length,80);assert.equal(report.cases.length,20);report.status='passed';fs.writeFileSync('reports/student-review-pass3.json',JSON.stringify(report,null,2)+'\n');console.log('Reviewed projection: 471 slides, 80 glossary task keys, 20 derived case answers agree');

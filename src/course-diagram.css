@@ -4,6 +4,6 @@
 @media(max-width:820px){.course-steps{grid-template-columns:1fr}.course-causal{grid-template-columns:1fr}.course-connector{padding:0;transform:rotate(90deg);justify-self:center}.course-diagram{font-size:17px}.course-data-table{table-layout:auto}.course-data-table th,.course-data-table td{min-width:100px}.diagram-dialog-content .course-diagram{font-size:17px}.course-step-controls .button{min-height:44px}.course-steps>li{padding:12px 0!important}}
 @media print{.course-step-controls,.infographic-modern .infographic-actions{display:none!important}.course-data-table{break-inside:avoid}.course-steps>li{box-shadow:none!important}.infographic-modern{overflow:visible!important}}
 .course-code{font-family:Consolas,"Courier New",monospace;font-size:.95em}
-.infographic-modern{flex:none!important;height:auto!important;min-height:0!important;max-height:none!important}
+.infographic-modern{flex:none!important;height:auto!important;min-height:0!important;max-height:none!important;margin-block:.8cqw 0!important}
 @media print{.infographic-modern{padding:8px!important}.slide-frame .course-steps{gap:.35cqw 1.5cqw!important}.slide-frame .course-steps>li{padding:.2cqw 0!important}.infographic-modern>figcaption{padding-top:6px!important;margin-top:6px!important}}
 @media print{.slide-frame .course-steps{grid-template-columns:repeat(2,minmax(0,1fr))!important}.slide-frame .course-causal{grid-template-columns:1fr auto 1fr auto 1fr!important}.slide-frame .course-connector{transform:none!important;padding-top:16px!important}}

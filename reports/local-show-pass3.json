@@ -1,0 +1,594 @@
+{
+  "stage": 1,
+  "url": "http://127.0.0.1:4184/2026-PISID4-lecture/",
+  "checkedAt": "2026-10-25T15:45:00.980Z",
+  "version": "pisid4-2026.10.25-review3",
+  "resources": [
+    {
+      "name": "course.json",
+      "sha256": "2b38e83bf44c90e5653dd6acae285c4a099b395a1c4c57c35afe4820ce08fcf1"
+    },
+    {
+      "name": "practice-cases.json",
+      "sha256": "833cd32232966aca3c0d3f7f116921e1a4ab5d3a05737e03b55fd3f260814cdc"
+    },
+    {
+      "name": "assessment.json",
+      "sha256": "77134f4ac552e2d26006a5993c88b9444a791846349ad24582ffdf64256ae9b5"
+    },
+    {
+      "name": "teacher-pack.json",
+      "sha256": "0b9ee69ae2588b3f589daf505ed0b7e7adee1ca6ebf67565a6c4cb8ed1714edb"
+    },
+    {
+      "name": "subject-diagrams.json",
+      "sha256": "c2ea514a02a79a785818bef1b487a212b04fde5b4230789a1ddb923325f459d0"
+    }
+  ],
+  "cases": [
+    {
+      "id": "L1-Q1",
+      "studentAnswers": [
+        "B3",
+        "диспетчер"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L1-Q2",
+      "studentAnswers": [
+        "2",
+        "3"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L1-Q3",
+      "studentAnswers": [
+        "BR7",
+        "H2"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L1-Q4",
+      "studentAnswers": [
+        "Q2",
+        "8"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L2-Q1",
+      "studentAnswers": [
+        "visit_id",
+        "2"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L2-Q2",
+      "studentAnswers": [
+        "R14",
+        "2"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L2-Q3",
+      "studentAnswers": [
+        "part_name",
+        "quantity"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L2-Q4",
+      "studentAnswers": [
+        "3",
+        "archive"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L3-Q1",
+      "studentAnswers": [
+        "pending",
+        "completed"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L3-Q2",
+      "studentAnswers": [
+        "4",
+        "disabled"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L3-Q3",
+      "studentAnswers": [
+        "1",
+        "keep"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L3-Q4",
+      "studentAnswers": [
+        "conflict",
+        "keep"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L4-Q1",
+      "studentAnswers": [
+        "V61",
+        "deny"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L4-Q2",
+      "studentAnswers": [
+        "3",
+        "1"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L4-Q3",
+      "studentAnswers": [
+        "1",
+        "1"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L4-Q4",
+      "studentAnswers": [
+        "unlock",
+        "S88"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L5-Q1",
+      "studentAnswers": [
+        "D2",
+        "verify"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L5-Q2",
+      "studentAnswers": [
+        "Выезд - eng5",
+        "09.04.2027"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L5-Q3",
+      "studentAnswers": [
+        "F8",
+        "T2"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    },
+    {
+      "id": "L5-Q4",
+      "studentAnswers": [
+        "T2",
+        "4"
+      ],
+      "wrongAndCorrect": 2,
+      "publicArtifact": true,
+      "teacherAndScreenAgree": true,
+      "comparisonVisible": true,
+      "lateAudience": true,
+      "changingEitherAnswerHidesSolution": true,
+      "firstChangeResetsSecond": true
+    }
+  ],
+  "matching": [
+    {
+      "slideId": "01-customer-documents-Q01-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "01-customer-documents-Q01-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "01-customer-documents-Q02-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "01-customer-documents-Q02-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "01-customer-documents-Q03-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "01-customer-documents-Q03-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "01-customer-documents-Q04-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "01-customer-documents-Q04-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q01-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q01-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q02-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q02-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q03-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q03-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q04-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "02-conceptual-model-Q04-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q01-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q01-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q02-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q02-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q03-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q03-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q04-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "03-ui-scenarios-Q04-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q01-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q01-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q02-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q02-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q03-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q03-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q04-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "04-access-auth-admin-Q04-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q01-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q01-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q02-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q02-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q03-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q03-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q04-T04",
+      "method": "mouse",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    },
+    {
+      "slideId": "05-project-documentation-Q04-T04",
+      "method": "keyboard",
+      "pairs": 4,
+      "correct": true,
+      "audienceRestored": true
+    }
+  ],
+  "errors": [],
+  "status": "passed"
+}

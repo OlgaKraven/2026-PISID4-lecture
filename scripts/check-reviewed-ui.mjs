@@ -62,7 +62,7 @@ try{
  }
  const base=new URL(siteUrl).pathname,first=lecture.slides[0],second=lecture.slides[1];
  const baseline=JSON.parse(await fs.readFile('authoring/baseline-note-hashes.json','utf8'));
- const original=JSON.parse((await import('node:child_process')).execFileSync('git',['show','30fb5e1:public/teacher-pack.json'],{encoding:'utf8',maxBuffer:5e6}));
+ const original=JSON.parse((await import('node:child_process')).execFileSync('git',['show','f4e2977:public/teacher-pack.json'],{encoding:'utf8',maxBuffer:5e6}));
  await page.evaluate(({key,notes,id})=>localStorage.setItem(key,JSON.stringify({...notes,[id]:{...notes[id],script:'Моя личная запись'}})),{key:`lecture:${base}:pisid4:private:${baseline.contentVersion}`,notes:original.notes,id:first.id});
  await page.goto(siteUrl+`?mode=presenter&lecture=${lecture.id}&slide=${first.id}&session=notes-review`);
  await page.getByRole('tabpanel').waitFor();assert.equal((await page.getByRole('tabpanel').innerText()).trim(),'Моя личная запись');
