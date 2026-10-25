@@ -1,0 +1,29 @@
+{
+  "version": "pisid4-2026.10.25-review",
+  "catalog": [
+    320,
+    390,
+    1024
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "session": [
+    "matching pairs and selection",
+    "shuffled order",
+    "late audience",
+    "correct result",
+    "private answer tab",
+    "black screen",
+    "theme sync"
+  ],
+  "notes": [
+    "old defaults updated",
+    "personal script preserved",
+    "old storage unchanged",
+    "defaults require no storage write"
+  ],
+  "errors": [],
+  "status": "passed"
+}

@@ -1,0 +1,41 @@
+{
+  "version": "pisid4-2026.10.25-review",
+  "mode": "show",
+  "lectures": [
+    {
+      "id": "01-customer-documents",
+      "slides": 93,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "02-conceptual-model",
+      "slides": 93,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "03-ui-scenarios",
+      "slides": 93,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "04-access-auth-admin",
+      "slides": 93,
+      "issues": [],
+      "notesRequested": false
+    },
+    {
+      "id": "05-project-documentation",
+      "slides": 99,
+      "issues": [],
+      "notesRequested": false
+    }
+  ],
+  "cases": [],
+  "tasks": [],
+  "errors": [],
+  "layout": [],
+  "status": "passed"
+}

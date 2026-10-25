@@ -1,0 +1,1006 @@
+{
+  "schemaVersion": 1,
+  "courseId": "pisid4",
+  "contentVersion": "pisid4-2026.10.25-review",
+  "sourceKind": "local",
+  "sourceSha256": "d521606cb2b33a8a05f498d26478243ecc42518bca5c7432da94b56086657dc9",
+  "lectureIds": [
+    "05-project-documentation"
+  ],
+  "documents": {
+    "teacher": "lecture.teacher.md",
+    "presenter": "lecture.presenter.md"
+  },
+  "slides": [
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-start",
+      "displayNumber": 1,
+      "title": "Проектная документация",
+      "anchors": {
+        "teacher": "screen-001",
+        "presenter": "screen-001"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-main-literature",
+      "displayNumber": 2,
+      "title": "Основная литература",
+      "anchors": {
+        "teacher": "screen-002",
+        "presenter": "screen-002"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-additional-literature",
+      "displayNumber": 3,
+      "title": "Дополнительная литература",
+      "anchors": {
+        "teacher": "screen-003",
+        "presenter": "screen-003"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-materials",
+      "displayNumber": 4,
+      "title": "Материалы к занятиям",
+      "anchors": {
+        "teacher": "screen-004",
+        "presenter": "screen-004"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-route",
+      "displayNumber": 5,
+      "title": "Вопросы темы",
+      "anchors": {
+        "teacher": "screen-005",
+        "presenter": "screen-005"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-why",
+      "displayNumber": 6,
+      "title": "Что получится в конце",
+      "anchors": {
+        "teacher": "screen-006",
+        "presenter": "screen-006"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-case",
+      "displayNumber": 7,
+      "title": "Field Service: учебный контекст",
+      "anchors": {
+        "teacher": "screen-007",
+        "presenter": "screen-007"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-entry",
+      "displayNumber": 8,
+      "title": "На что опираемся",
+      "anchors": {
+        "teacher": "screen-008",
+        "presenter": "screen-008"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-kod-context",
+      "displayNumber": 9,
+      "title": "API и документация в ДЭ 2027",
+      "anchors": {
+        "teacher": "screen-009",
+        "presenter": "screen-009"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01",
+      "displayNumber": 10,
+      "title": "Источники требований к документации и читатель",
+      "anchors": {
+        "teacher": "screen-010",
+        "presenter": "screen-010"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c1-definition",
+      "displayNumber": 11,
+      "title": "Актуальность стандарта",
+      "anchors": {
+        "teacher": "screen-011",
+        "presenter": "screen-011"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c1-mechanism",
+      "displayNumber": 12,
+      "title": "Как строится решение",
+      "anchors": {
+        "teacher": "screen-012",
+        "presenter": "screen-012"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c1-case",
+      "displayNumber": 13,
+      "title": "Актуальность стандарта: применение",
+      "anchors": {
+        "teacher": "screen-013",
+        "presenter": "screen-013"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c1-decision",
+      "displayNumber": 14,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-014",
+        "presenter": "screen-014"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c1-mistake",
+      "displayNumber": 15,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-015",
+        "presenter": "screen-015"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c1-notebook",
+      "displayNumber": 16,
+      "title": "Запишите: Актуальность стандарта",
+      "anchors": {
+        "teacher": "screen-016",
+        "presenter": "screen-016"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c2-definition",
+      "displayNumber": 17,
+      "title": "Назначение документа",
+      "anchors": {
+        "teacher": "screen-017",
+        "presenter": "screen-017"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c2-mechanism",
+      "displayNumber": 18,
+      "title": "Как проверяется решение",
+      "anchors": {
+        "teacher": "screen-018",
+        "presenter": "screen-018"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c2-case",
+      "displayNumber": 19,
+      "title": "Назначение документа: применение",
+      "anchors": {
+        "teacher": "screen-019",
+        "presenter": "screen-019"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c2-decision",
+      "displayNumber": 20,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-020",
+        "presenter": "screen-020"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c2-mistake",
+      "displayNumber": 21,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-021",
+        "presenter": "screen-021"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c2-notebook",
+      "displayNumber": 22,
+      "title": "Запишите: Назначение документа",
+      "anchors": {
+        "teacher": "screen-022",
+        "presenter": "screen-022"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01-terms",
+      "displayNumber": 23,
+      "title": "Четыре опорных термина",
+      "anchors": {
+        "teacher": "screen-023",
+        "presenter": "screen-023"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01-worked",
+      "displayNumber": 24,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-024",
+        "presenter": "screen-024"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01-practice",
+      "displayNumber": 25,
+      "title": "Применимость нормативного источника",
+      "anchors": {
+        "teacher": "screen-025",
+        "presenter": "screen-025"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01-T01",
+      "displayNumber": 26,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-026",
+        "presenter": "screen-026"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01-T02",
+      "displayNumber": 27,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-027",
+        "presenter": "screen-027"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01-T03",
+      "displayNumber": 28,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-028",
+        "presenter": "screen-028"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q01-T04",
+      "displayNumber": 29,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-029",
+        "presenter": "screen-029"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02",
+      "displayNumber": 30,
+      "title": "Назначение функции и контракт метода",
+      "anchors": {
+        "teacher": "screen-030",
+        "presenter": "screen-030"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c3-definition",
+      "displayNumber": 31,
+      "title": "Функциональное назначение",
+      "anchors": {
+        "teacher": "screen-031",
+        "presenter": "screen-031"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c3-mechanism",
+      "displayNumber": 32,
+      "title": "Как строится решение",
+      "anchors": {
+        "teacher": "screen-032",
+        "presenter": "screen-032"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c3-case",
+      "displayNumber": 33,
+      "title": "Функциональное назначение: применение",
+      "anchors": {
+        "teacher": "screen-033",
+        "presenter": "screen-033"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c3-decision",
+      "displayNumber": 34,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-034",
+        "presenter": "screen-034"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c3-mistake",
+      "displayNumber": 35,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-035",
+        "presenter": "screen-035"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c3-notebook",
+      "displayNumber": 36,
+      "title": "Запишите: Функциональное назначение",
+      "anchors": {
+        "teacher": "screen-036",
+        "presenter": "screen-036"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c4-definition",
+      "displayNumber": 37,
+      "title": "Метод",
+      "anchors": {
+        "teacher": "screen-037",
+        "presenter": "screen-037"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c4-mechanism",
+      "displayNumber": 38,
+      "title": "Как проверяется решение",
+      "anchors": {
+        "teacher": "screen-038",
+        "presenter": "screen-038"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c4-case",
+      "displayNumber": 39,
+      "title": "Метод: применение",
+      "anchors": {
+        "teacher": "screen-039",
+        "presenter": "screen-039"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c4-decision",
+      "displayNumber": 40,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-040",
+        "presenter": "screen-040"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c4-mistake",
+      "displayNumber": 41,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-041",
+        "presenter": "screen-041"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c4-notebook",
+      "displayNumber": 42,
+      "title": "Запишите: Метод",
+      "anchors": {
+        "teacher": "screen-042",
+        "presenter": "screen-042"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-terms",
+      "displayNumber": 43,
+      "title": "Четыре опорных термина",
+      "anchors": {
+        "teacher": "screen-043",
+        "presenter": "screen-043"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-worked",
+      "displayNumber": 44,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-044",
+        "presenter": "screen-044"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-api-contract",
+      "displayNumber": 45,
+      "title": "Контракт API заметок",
+      "anchors": {
+        "teacher": "screen-045",
+        "presenter": "screen-045"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-api-transform",
+      "displayNumber": 46,
+      "title": "От записи БД к объекту ответа",
+      "anchors": {
+        "teacher": "screen-046",
+        "presenter": "screen-046"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-api-status",
+      "displayNumber": 47,
+      "title": "Успех, пустой результат и ошибка",
+      "anchors": {
+        "teacher": "screen-047",
+        "presenter": "screen-047"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-api-tests",
+      "displayNumber": 48,
+      "title": "Коллекция, которая проверяет поведение",
+      "anchors": {
+        "teacher": "screen-048",
+        "presenter": "screen-048"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-practice",
+      "displayNumber": 49,
+      "title": "Ответ API заметок",
+      "anchors": {
+        "teacher": "screen-049",
+        "presenter": "screen-049"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-T01",
+      "displayNumber": 50,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-050",
+        "presenter": "screen-050"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-T02",
+      "displayNumber": 51,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-051",
+        "presenter": "screen-051"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-T03",
+      "displayNumber": 52,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-052",
+        "presenter": "screen-052"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q02-T04",
+      "displayNumber": 53,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-053",
+        "presenter": "screen-053"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03",
+      "displayNumber": 54,
+      "title": "Параметры и спецификация экранной формы",
+      "anchors": {
+        "teacher": "screen-054",
+        "presenter": "screen-054"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c5-definition",
+      "displayNumber": 55,
+      "title": "Параметр",
+      "anchors": {
+        "teacher": "screen-055",
+        "presenter": "screen-055"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c5-mechanism",
+      "displayNumber": 56,
+      "title": "Как строится решение",
+      "anchors": {
+        "teacher": "screen-056",
+        "presenter": "screen-056"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c5-case",
+      "displayNumber": 57,
+      "title": "Параметр: применение",
+      "anchors": {
+        "teacher": "screen-057",
+        "presenter": "screen-057"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c5-decision",
+      "displayNumber": 58,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-058",
+        "presenter": "screen-058"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c5-mistake",
+      "displayNumber": 59,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-059",
+        "presenter": "screen-059"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c5-notebook",
+      "displayNumber": 60,
+      "title": "Запишите: Параметр",
+      "anchors": {
+        "teacher": "screen-060",
+        "presenter": "screen-060"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c6-definition",
+      "displayNumber": 61,
+      "title": "Экранная форма",
+      "anchors": {
+        "teacher": "screen-061",
+        "presenter": "screen-061"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c6-mechanism",
+      "displayNumber": 62,
+      "title": "Как проверяется решение",
+      "anchors": {
+        "teacher": "screen-062",
+        "presenter": "screen-062"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c6-case",
+      "displayNumber": 63,
+      "title": "Экранная форма: применение",
+      "anchors": {
+        "teacher": "screen-063",
+        "presenter": "screen-063"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c6-decision",
+      "displayNumber": 64,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-064",
+        "presenter": "screen-064"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c6-mistake",
+      "displayNumber": 65,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-065",
+        "presenter": "screen-065"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c6-notebook",
+      "displayNumber": 66,
+      "title": "Запишите: Экранная форма",
+      "anchors": {
+        "teacher": "screen-066",
+        "presenter": "screen-066"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-terms",
+      "displayNumber": 67,
+      "title": "Четыре опорных термина",
+      "anchors": {
+        "teacher": "screen-067",
+        "presenter": "screen-067"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-worked",
+      "displayNumber": 68,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-068",
+        "presenter": "screen-068"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-api-template",
+      "displayNumber": 69,
+      "title": "Заполняем шаблон документации API",
+      "anchors": {
+        "teacher": "screen-069",
+        "presenter": "screen-069"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-practice",
+      "displayNumber": 70,
+      "title": "Принадлежность подписи и отрицательный тест",
+      "anchors": {
+        "teacher": "screen-070",
+        "presenter": "screen-070"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-T01",
+      "displayNumber": 71,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-071",
+        "presenter": "screen-071"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-T02",
+      "displayNumber": 72,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-072",
+        "presenter": "screen-072"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-T03",
+      "displayNumber": 73,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-073",
+        "presenter": "screen-073"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q03-T04",
+      "displayNumber": 74,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-074",
+        "presenter": "screen-074"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04",
+      "displayNumber": 75,
+      "title": "Проектное описание, ТЗ и итоговая сборка",
+      "anchors": {
+        "teacher": "screen-075",
+        "presenter": "screen-075"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c7-definition",
+      "displayNumber": 76,
+      "title": "Отличие от ТЗ",
+      "anchors": {
+        "teacher": "screen-076",
+        "presenter": "screen-076"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c7-mechanism",
+      "displayNumber": 77,
+      "title": "Как строится решение",
+      "anchors": {
+        "teacher": "screen-077",
+        "presenter": "screen-077"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c7-case",
+      "displayNumber": 78,
+      "title": "Отличие от ТЗ: применение",
+      "anchors": {
+        "teacher": "screen-078",
+        "presenter": "screen-078"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c7-decision",
+      "displayNumber": 79,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-079",
+        "presenter": "screen-079"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c7-mistake",
+      "displayNumber": 80,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-080",
+        "presenter": "screen-080"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c7-notebook",
+      "displayNumber": 81,
+      "title": "Запишите: Отличие от ТЗ",
+      "anchors": {
+        "teacher": "screen-081",
+        "presenter": "screen-081"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c8-definition",
+      "displayNumber": 82,
+      "title": "Экзаменационная сборка",
+      "anchors": {
+        "teacher": "screen-082",
+        "presenter": "screen-082"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c8-mechanism",
+      "displayNumber": 83,
+      "title": "Как проверяется решение",
+      "anchors": {
+        "teacher": "screen-083",
+        "presenter": "screen-083"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c8-case",
+      "displayNumber": 84,
+      "title": "Экзаменационная сборка: применение",
+      "anchors": {
+        "teacher": "screen-084",
+        "presenter": "screen-084"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c8-decision",
+      "displayNumber": 85,
+      "title": "Сравним последствия выбора",
+      "anchors": {
+        "teacher": "screen-085",
+        "presenter": "screen-085"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c8-mistake",
+      "displayNumber": 86,
+      "title": "Где решение даёт сбой",
+      "anchors": {
+        "teacher": "screen-086",
+        "presenter": "screen-086"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-c8-notebook",
+      "displayNumber": 87,
+      "title": "Запишите: Экзаменационная сборка",
+      "anchors": {
+        "teacher": "screen-087",
+        "presenter": "screen-087"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-terms",
+      "displayNumber": 88,
+      "title": "Четыре опорных термина",
+      "anchors": {
+        "teacher": "screen-088",
+        "presenter": "screen-088"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-worked",
+      "displayNumber": 89,
+      "title": "Полный разбор решения",
+      "anchors": {
+        "teacher": "screen-089",
+        "presenter": "screen-089"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-api-delivery",
+      "displayNumber": 90,
+      "title": "Проверьте комплект ДЭ 2027",
+      "anchors": {
+        "teacher": "screen-090",
+        "presenter": "screen-090"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-practice",
+      "displayNumber": 91,
+      "title": "Комплектность и проверка экспорта",
+      "anchors": {
+        "teacher": "screen-091",
+        "presenter": "screen-091"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-T01",
+      "displayNumber": 92,
+      "title": "Один ответ",
+      "anchors": {
+        "teacher": "screen-092",
+        "presenter": "screen-092"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-T02",
+      "displayNumber": 93,
+      "title": "Несколько ответов",
+      "anchors": {
+        "teacher": "screen-093",
+        "presenter": "screen-093"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-T03",
+      "displayNumber": 94,
+      "title": "Краткий ответ",
+      "anchors": {
+        "teacher": "screen-094",
+        "presenter": "screen-094"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-Q04-T04",
+      "displayNumber": 95,
+      "title": "Соответствие",
+      "anchors": {
+        "teacher": "screen-095",
+        "presenter": "screen-095"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-summary",
+      "displayNumber": 96,
+      "title": "Связи и выводы темы",
+      "anchors": {
+        "teacher": "screen-096",
+        "presenter": "screen-096"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-sources",
+      "displayNumber": 97,
+      "title": "Предметные источники",
+      "anchors": {
+        "teacher": "screen-097",
+        "presenter": "screen-097"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-final",
+      "displayNumber": 98,
+      "title": "Перед применением в своём проекте",
+      "anchors": {
+        "teacher": "screen-098",
+        "presenter": "screen-098"
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "slideId": "05-project-documentation-questions",
+      "displayNumber": 99,
+      "title": "Вопросы от аудитории",
+      "anchors": {
+        "teacher": "screen-099",
+        "presenter": "screen-099"
+      }
+    }
+  ]
+}

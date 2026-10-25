@@ -1,0 +1,345 @@
+{
+  "date": "2026-10-25",
+  "baselineCommit": "21f0a4c",
+  "contentVersion": "pisid4-2026.10.25-review",
+  "sourceSha256": "d521606cb2b33a8a05f498d26478243ecc42518bca5c7432da94b56086657dc9",
+  "lectures": 5,
+  "slides": 471,
+  "originalSlideIdsPreserved": 451,
+  "visuals": 144,
+  "independentCases": 20,
+  "assessments": 80,
+  "showSlides": 471,
+  "printLayoutProblems": 0,
+  "ui": {
+    "version": "pisid4-2026.10.25-review",
+    "catalog": [
+      320,
+      390,
+      1024
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "session": [
+      "matching pairs and selection",
+      "shuffled order",
+      "late audience",
+      "correct result",
+      "private answer tab",
+      "black screen",
+      "theme sync"
+    ],
+    "notes": [
+      "old defaults updated",
+      "personal script preserved",
+      "old storage unchanged",
+      "defaults require no storage write"
+    ],
+    "errors": [],
+    "status": "passed"
+  },
+  "resources": {
+    "qr": [
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://www.iprbookshop.ru/144813.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://www.iprbookshop.ru/144814.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://www.iprbookshop.ru/152882.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://www.iprbookshop.ru/123442.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://www.iprbookshop.ru/152769.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://disk.yandex.ru/d/_FjzURiCSzxkLw",
+        "decoded": true
+      },
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+        "decoded": true
+      },
+      {
+        "lectureId": "01-customer-documents",
+        "url": "https://protect.gost.ru/gost/details/5876f733-ee91-431a-8cb6-9e02ea2436ac",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://www.iprbookshop.ru/144813.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://www.iprbookshop.ru/144814.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://www.iprbookshop.ru/152882.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://www.iprbookshop.ru/123442.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://www.iprbookshop.ru/152769.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://disk.yandex.ru/d/_FjzURiCSzxkLw",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+        "decoded": true
+      },
+      {
+        "lectureId": "02-conceptual-model",
+        "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://www.iprbookshop.ru/144813.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://www.iprbookshop.ru/144814.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://www.iprbookshop.ru/152882.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://www.iprbookshop.ru/123442.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://www.iprbookshop.ru/152769.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://disk.yandex.ru/d/_FjzURiCSzxkLw",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://www.w3.org/WAI/tutorials/forms/",
+        "decoded": true
+      },
+      {
+        "lectureId": "03-ui-scenarios",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://www.iprbookshop.ru/144813.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://www.iprbookshop.ru/144814.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://www.iprbookshop.ru/152882.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://www.iprbookshop.ru/123442.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://www.iprbookshop.ru/152769.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://disk.yandex.ru/d/_FjzURiCSzxkLw",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "04-access-auth-admin",
+        "url": "https://csrc.nist.gov/glossary/term/role_based_access_control",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://www.iprbookshop.ru/144813.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://www.iprbookshop.ru/144814.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://www.iprbookshop.ru/152882.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://www.iprbookshop.ru/123442.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://www.iprbookshop.ru/152769.html",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://disk.yandex.ru/d/_FjzURiCSzxkLw",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://disk.yandex.ru/d/Pn1NcJ-UexwpjQ",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://protect.gost.ru/document.aspx?control=7&id=241562",
+        "decoded": true
+      },
+      {
+        "lectureId": "05-project-documentation",
+        "url": "https://protect.gost.ru/document.aspx?control=7&id=240532",
+        "decoded": true
+      }
+    ],
+    "offline": {
+      "status": "passed",
+      "cachedFiles": 31
+    },
+    "fonts": [
+      {
+        "family": "Raleway",
+        "status": "loaded"
+      }
+    ]
+  },
+  "pdf": [
+    {
+      "lectureId": "01-customer-documents",
+      "path": "outputs\\pdf\\student\\01-customer-documents.pdf",
+      "pages": 93,
+      "size": {
+        "width": 960,
+        "height": 540
+      }
+    },
+    {
+      "lectureId": "02-conceptual-model",
+      "path": "outputs\\pdf\\student\\02-conceptual-model.pdf",
+      "pages": 93,
+      "size": {
+        "width": 960,
+        "height": 540
+      }
+    },
+    {
+      "lectureId": "03-ui-scenarios",
+      "path": "outputs\\pdf\\student\\03-ui-scenarios.pdf",
+      "pages": 93,
+      "size": {
+        "width": 960,
+        "height": 540
+      }
+    },
+    {
+      "lectureId": "04-access-auth-admin",
+      "path": "outputs\\pdf\\student\\04-access-auth-admin.pdf",
+      "pages": 93,
+      "size": {
+        "width": 960,
+        "height": 540
+      }
+    },
+    {
+      "lectureId": "05-project-documentation",
+      "path": "outputs\\pdf\\student\\05-project-documentation.pdf",
+      "pages": 99,
+      "size": {
+        "width": 960,
+        "height": 540
+      }
+    }
+  ],
+  "pdfRenderedPages": 25,
+  "generationExactByteOutputs": 27,
+  "checks": [
+    "build",
+    "typecheck",
+    "lint",
+    "methodology",
+    "readiness with teacher pack",
+    "privacy",
+    "generated byte comparison",
+    "5 alignment maps",
+    "npm audit: zero vulnerabilities"
+  ],
+  "limitations": [
+    "RPD and official lecture hours not provided",
+    "Physical projector and live group not tested"
+  ],
+  "screenshots": [
+    "catalog.png",
+    "question-light.png",
+    "definition-light.png",
+    "schema-dark.png",
+    "presenter-dark.png",
+    "audience-dark.png",
+    "case-mobile.png"
+  ]
+}

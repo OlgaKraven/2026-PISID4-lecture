@@ -1,9 +1,10 @@
 import fs from 'node:fs';
+import {refineCourse} from '../authoring/revision.mjs';
 import crypto from 'node:crypto';
 import units from '../authoring/units.mjs';
 import {examUrl,official2027,examSlides} from '../authoring/exam2027.mjs';
 const old=JSON.parse(fs.readFileSync('authoring/source-course.json','utf8'));
-const version='pisid4-2027-template02-v2';
+const version='pisid4-2026.10.25-review';
 const c={schemaVersion:1,contentVersion:version,id:'pisid4',code:'МДК.05.01',discipline:'Проектирование и дизайн информационных систем',year:'2026–2027',heroTitle:'От документов заказчика',heroAccent:'к проектному решению',slogan:'4 курс · Анализируем, моделируем, объясняем решения.',mascot:'brand/rhino-designer.webp',mascotAlt:'Носорог-проектировщик с материалами информационной системы',logo:'brand/brand-mark.png',ornament:'brand/side-ornament.webp',font:'fonts/raleway-cyrillic.woff2',topicArrow:'brand/topic-arrow.webp',materialsUrl:old.materialsUrl,demo:false,semesters:[7],assessment:{mode:'autonomous',url:'assessment.json'},literature:{primary:[],additional:[]},glossary:[],curriculum:[],lectures:[]};
 // Существующие библиографические описания сохраняются, без догадок об ISBN.
 const sources=fs.readFileSync('SOURCES.md','utf8').replace('ISBN 978-5-93026-166-10','ISBN в исходном описании требует уточнения');
@@ -12,9 +13,9 @@ const bank={schemaVersion:1,courseId:c.id,contentVersion:version,mode:'autonomou
 const teacher={schemaVersion:1,courseId:c.id,contentVersion:version,notes:{}};
 const registry=[],mapping=[],questionMap=[];
 const digest=x=>crypto.createHash('sha256').update(JSON.stringify(x)).digest('hex');
-const prior=fs.existsSync('private/teacher-source.json')?JSON.parse(fs.readFileSync('private/teacher-source.json','utf8')):null;
+const prior=null; // Published authoring notes are rebuilt together with reviewed slides.
 const teacherSource={courseId:c.id,contentVersion:version,slides:{}};
-const withTeacher=process.argv.includes('--teacher');
+const withTeacher=true;
 function visualText(v){if(!v)return '';if(v.items)return v.items.map(x=>`${x.title}: ${x.text}`).join(' ');if(v.rows)return v.rows.map(x=>x.join(' — ')).join('. ');if(v.type==='cause')return `Причина: ${v.cause}. Следствие: ${v.effect}. Исправление: ${v.solution}.`;return '';}
 for(const [li,t] of old.topics.entries()){
  const l={id:t.id,title:t.title,sourceTitle:li<2?'Задание ДЭ 2027 №1 · ER-диаграмма':li===4?'Задания ДЭ 2027 №5–6 · API и документация':'Задание ДЭ 2027 №4 · Информационная система',semester:t.semester,question:t.shortTitle,slides:[]};
@@ -92,8 +93,10 @@ for(const [li,t] of old.topics.entries()){
 // Объединяем повторные термины только при совпадении определения.
 const gl=new Map();for(const g of c.glossary){const k=g.term+'|'+g.definition;if(gl.has(k))gl.get(k).slideIds.push(...g.slideIds);else gl.set(k,g);}c.glossary=[...gl.values()];
 for(const dir of ['public','authoring','reports','private'])fs.mkdirSync(dir,{recursive:true});
+refineCourse(c,teacher,questionMap,registry);
+for(const l of c.lectures)for(const s of l.slides)teacherSource.slides[s.id]={contentHash:digest(s),note:teacher.notes[s.id]};
 const write=(p,x)=>fs.writeFileSync(p,JSON.stringify(x,null,2)+'\n');
 write('public/course.json',c);write('public/assessment.json',bank);write('authoring/questions.json',questionMap);write('reports/registry.json',registry);write('reports/migration-map.json',mapping);
-if(withTeacher){write('private/teacher-source.json',teacherSource);write('private/teacher-pack.json',teacher);fs.writeFileSync('private/teacher.md',c.lectures.map(l=>`# ${l.title}\n\n`+l.slides.map(s=>{const n=teacher.notes[s.id];return `## ${s.id} · ${s.title}\n\n${n.script}\n\nПодготовка: ${n.preparation}\n\nКонспект: ${n.notebook}\n\n${n.questions}\n\n${n.answer}\n\nРасчёт: ${n.estimatedSeconds} с.\n`;}).join('\n')).join('\n'));write('private/preparation-cards.json',c.lectures.map((l,i)=>({lectureId:l.id,prerequisites:i?'Материал предшествующих тем; факты, решения и проверка.':'Различение документа, факта и предположения.',logic:units.slice(i*4,i*4+4).map(u=>u.title),questions:units.slice(i*4,i*4+4).flatMap(u=>u.qa),uncertainties:['РПД и официальные часы не предоставлены.','Вид аттестации и вариативная часть группы не указаны; статусы ГОСТ Р 59793-2021 и ГОСТ 34.201-2020 требуют подтверждения.'],estimatedMinutes:registry[i].estimatedMinutes})));
+if(withTeacher){write('public/teacher-pack.json',teacher);write('private/teacher-source.json',teacherSource);write('private/teacher-pack.json',teacher);fs.writeFileSync('private/teacher.md',c.lectures.map(l=>`# ${l.title}\n\n`+l.slides.map(s=>{const n=teacher.notes[s.id];return `## ${s.id} · ${s.title}\n\n${n.script}\n\nПодготовка: ${n.preparation}\n\nКонспект: ${n.notebook}\n\n${n.questions}\n\n${n.answer}\n\nРасчёт: ${n.estimatedSeconds} с.\n`;}).join('\n')).join('\n'));write('private/preparation-cards.json',c.lectures.map((l,i)=>({lectureId:l.id,prerequisites:i?'Материал предшествующих тем; факты, решения и проверка.':'Различение документа, факта и предположения.',logic:units.slice(i*4,i*4+4).map(u=>u.title),questions:units.slice(i*4,i*4+4).flatMap(u=>u.qa),uncertainties:['РПД и официальные часы не предоставлены.','Вид аттестации и вариативная часть группы не указаны; статусы ГОСТ Р 59793-2021 и ГОСТ 34.201-2020 требуют подтверждения.'],estimatedMinutes:registry[i].estimatedMinutes})));
 }
 console.log(JSON.stringify({lectures:c.lectures.length,slides:c.lectures.map(l=>l.slides.length),tasks:Object.keys(bank.keys).length,notes:Object.keys(teacher.notes).length}));

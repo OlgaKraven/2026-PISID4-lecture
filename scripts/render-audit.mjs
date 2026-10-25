@@ -5,7 +5,7 @@ await fs.mkdir('output/playwright',{recursive:true});
 const browser=await launchBrowser(),report=[];
 try{
  const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
- await page.goto(siteUrl);await page.getByRole('button',{name:'Открыть',exact:true}).first().waitFor();
+ await page.goto(siteUrl);await page.getByRole('button',{name:/Открыть лекцию:/}).first().waitFor();
  await page.screenshot({path:'output/playwright/catalog.png',fullPage:true});
  for(const l of c.lectures){
   await page.goto(siteUrl+'?mode=print&scope='+l.id,{waitUntil:'networkidle'});

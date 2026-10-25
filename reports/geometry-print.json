@@ -120,6 +120,11 @@
     "out": []
   },
   {
+    "id": "01-customer-documents-Q01-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "01-customer-documents-Q01-T01",
     "copyOverflow": 0,
     "out": []
@@ -211,6 +216,11 @@
   },
   {
     "id": "01-customer-documents-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-customer-documents-Q02-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -310,6 +320,11 @@
     "out": []
   },
   {
+    "id": "01-customer-documents-Q03-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "01-customer-documents-Q03-T01",
     "copyOverflow": 0,
     "out": []
@@ -401,6 +416,11 @@
   },
   {
     "id": "01-customer-documents-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "01-customer-documents-Q04-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -565,6 +585,11 @@
     "out": []
   },
   {
+    "id": "02-conceptual-model-Q01-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "02-conceptual-model-Q01-T01",
     "copyOverflow": 0,
     "out": []
@@ -656,6 +681,11 @@
   },
   {
     "id": "02-conceptual-model-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-conceptual-model-Q02-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -755,6 +785,11 @@
     "out": []
   },
   {
+    "id": "02-conceptual-model-Q03-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "02-conceptual-model-Q03-T01",
     "copyOverflow": 0,
     "out": []
@@ -846,6 +881,11 @@
   },
   {
     "id": "02-conceptual-model-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "02-conceptual-model-Q04-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -1010,6 +1050,11 @@
     "out": []
   },
   {
+    "id": "03-ui-scenarios-Q01-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "03-ui-scenarios-Q01-T01",
     "copyOverflow": 0,
     "out": []
@@ -1101,6 +1146,11 @@
   },
   {
     "id": "03-ui-scenarios-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-ui-scenarios-Q02-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -1200,6 +1250,11 @@
     "out": []
   },
   {
+    "id": "03-ui-scenarios-Q03-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "03-ui-scenarios-Q03-T01",
     "copyOverflow": 0,
     "out": []
@@ -1291,6 +1346,11 @@
   },
   {
     "id": "03-ui-scenarios-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "03-ui-scenarios-Q04-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -1455,6 +1515,11 @@
     "out": []
   },
   {
+    "id": "04-access-auth-admin-Q01-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "04-access-auth-admin-Q01-T01",
     "copyOverflow": 0,
     "out": []
@@ -1546,6 +1611,11 @@
   },
   {
     "id": "04-access-auth-admin-Q02-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-access-auth-admin-Q02-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -1645,6 +1715,11 @@
     "out": []
   },
   {
+    "id": "04-access-auth-admin-Q03-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "04-access-auth-admin-Q03-T01",
     "copyOverflow": 0,
     "out": []
@@ -1736,6 +1811,11 @@
   },
   {
     "id": "04-access-auth-admin-Q04-worked",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "04-access-auth-admin-Q04-practice",
     "copyOverflow": 0,
     "out": []
   },
@@ -1900,6 +1980,11 @@
     "out": []
   },
   {
+    "id": "05-project-documentation-Q01-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "05-project-documentation-Q01-T01",
     "copyOverflow": 0,
     "out": []
@@ -2015,6 +2100,11 @@
     "out": []
   },
   {
+    "id": "05-project-documentation-Q02-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "05-project-documentation-Q02-T01",
     "copyOverflow": 0,
     "out": []
@@ -2115,6 +2205,11 @@
     "out": []
   },
   {
+    "id": "05-project-documentation-Q03-practice",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
     "id": "05-project-documentation-Q03-T01",
     "copyOverflow": 0,
     "out": []
@@ -2211,6 +2306,11 @@
   },
   {
     "id": "05-project-documentation-Q04-api-delivery",
+    "copyOverflow": 0,
+    "out": []
+  },
+  {
+    "id": "05-project-documentation-Q04-practice",
     "copyOverflow": 0,
     "out": []
   },

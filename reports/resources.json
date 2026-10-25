@@ -216,10 +216,9 @@
       "decoded": true
     }
   ],
-  "editor": "login, edit, persist across reload, restore: passed",
   "offline": {
     "status": "passed",
-    "cachedFiles": 27
+    "cachedFiles": 31
   },
   "fonts": [
     {

@@ -23,6 +23,7 @@
       "01-customer-documents-c2-notebook",
       "01-customer-documents-Q01-terms",
       "01-customer-documents-Q01-worked",
+      "01-customer-documents-Q01-practice",
       "01-customer-documents-Q01-T01",
       "01-customer-documents-Q01-T02",
       "01-customer-documents-Q01-T03",
@@ -48,7 +49,8 @@
       "01-customer-documents-c2-mistake",
       "01-customer-documents-c2-notebook",
       "01-customer-documents-Q01-terms",
-      "01-customer-documents-Q01-worked"
+      "01-customer-documents-Q01-worked",
+      "01-customer-documents-Q01-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: два источника учтены, цель отделена от требования, вопрос о формате фото адресован владельцу DOC-01.",
@@ -78,6 +80,7 @@
       "01-customer-documents-c4-notebook",
       "01-customer-documents-Q02-terms",
       "01-customer-documents-Q02-worked",
+      "01-customer-documents-Q02-practice",
       "01-customer-documents-Q02-T01",
       "01-customer-documents-Q02-T02",
       "01-customer-documents-Q02-T03",
@@ -103,7 +106,8 @@
       "01-customer-documents-c4-mistake",
       "01-customer-documents-c4-notebook",
       "01-customer-documents-Q02-terms",
-      "01-customer-documents-Q02-worked"
+      "01-customer-documents-Q02-worked",
+      "01-customer-documents-Q02-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: заявка и визит предложены как разные сущности; две строки сохранены; кардинальность ожидает подтверждения.",
@@ -133,6 +137,7 @@
       "01-customer-documents-c6-notebook",
       "01-customer-documents-Q03-terms",
       "01-customer-documents-Q03-worked",
+      "01-customer-documents-Q03-practice",
       "01-customer-documents-Q03-T01",
       "01-customer-documents-Q03-T02",
       "01-customer-documents-Q03-T03",
@@ -158,7 +163,8 @@
       "01-customer-documents-c6-mistake",
       "01-customer-documents-c6-notebook",
       "01-customer-documents-Q03-terms",
-      "01-customer-documents-Q03-worked"
+      "01-customer-documents-Q03-worked",
+      "01-customer-documents-Q03-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: BR-01 имеет успешный и отрицательный пример; A-01 отделено от правила и связано с риском изменения модели.",
@@ -188,6 +194,7 @@
       "01-customer-documents-c8-notebook",
       "01-customer-documents-Q04-terms",
       "01-customer-documents-Q04-worked",
+      "01-customer-documents-Q04-practice",
       "01-customer-documents-Q04-T01",
       "01-customer-documents-Q04-T02",
       "01-customer-documents-Q04-T03",
@@ -213,7 +220,8 @@
       "01-customer-documents-c8-mistake",
       "01-customer-documents-c8-notebook",
       "01-customer-documents-Q04-terms",
-      "01-customer-documents-Q04-worked"
+      "01-customer-documents-Q04-worked",
+      "01-customer-documents-Q04-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: комплект охватывает четыре обязательные части; вопрос о повторном визите приоритетнее цвета таблицы; экспорт получил резерв 5 минут.",
@@ -243,6 +251,7 @@
       "02-conceptual-model-c2-notebook",
       "02-conceptual-model-Q01-terms",
       "02-conceptual-model-Q01-worked",
+      "02-conceptual-model-Q01-practice",
       "02-conceptual-model-Q01-T01",
       "02-conceptual-model-Q01-T02",
       "02-conceptual-model-Q01-T03",
@@ -268,7 +277,8 @@
       "02-conceptual-model-c2-mistake",
       "02-conceptual-model-c2-notebook",
       "02-conceptual-model-Q01-terms",
-      "02-conceptual-model-Q01-worked"
+      "02-conceptual-model-Q01-worked",
+      "02-conceptual-model-Q01-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: два визита связаны с одной заявкой; технические ключи не зависят от отображаемого номера и названия.",
@@ -298,6 +308,7 @@
       "02-conceptual-model-c4-notebook",
       "02-conceptual-model-Q02-terms",
       "02-conceptual-model-Q02-worked",
+      "02-conceptual-model-Q02-practice",
       "02-conceptual-model-Q02-T01",
       "02-conceptual-model-Q02-T02",
       "02-conceptual-model-Q02-T03",
@@ -323,7 +334,8 @@
       "02-conceptual-model-c4-mistake",
       "02-conceptual-model-c4-notebook",
       "02-conceptual-model-Q02-terms",
-      "02-conceptual-model-Q02-worked"
+      "02-conceptual-model-Q02-worked",
+      "02-conceptual-model-Q02-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: ссылка на заявку контролируется FK, а список запчастей заменён двумя проверяемыми строками.",
@@ -353,6 +365,7 @@
       "02-conceptual-model-c6-notebook",
       "02-conceptual-model-Q03-terms",
       "02-conceptual-model-Q03-worked",
+      "02-conceptual-model-Q03-practice",
       "02-conceptual-model-Q03-T01",
       "02-conceptual-model-Q03-T02",
       "02-conceptual-model-Q03-T03",
@@ -378,7 +391,8 @@
       "02-conceptual-model-c6-mistake",
       "02-conceptual-model-c6-notebook",
       "02-conceptual-model-Q03-terms",
-      "02-conceptual-model-Q03-worked"
+      "02-conceptual-model-Q03-worked",
+      "02-conceptual-model-Q03-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: название запчасти и текущий адрес не дублируются; исторический адрес сохраняется лишь при явно заданной потребности.",
@@ -408,6 +422,7 @@
       "02-conceptual-model-c8-notebook",
       "02-conceptual-model-Q04-terms",
       "02-conceptual-model-Q04-worked",
+      "02-conceptual-model-Q04-practice",
       "02-conceptual-model-Q04-T01",
       "02-conceptual-model-Q04-T02",
       "02-conceptual-model-Q04-T03",
@@ -433,7 +448,8 @@
       "02-conceptual-model-c8-mistake",
       "02-conceptual-model-c8-notebook",
       "02-conceptual-model-Q04-terms",
-      "02-conceptual-model-Q04-worked"
+      "02-conceptual-model-Q04-worked",
+      "02-conceptual-model-Q04-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: M:N представлена строками с количеством; дубль пары контролируется; завершённая история не удаляется вместе с инженером.",
@@ -463,6 +479,7 @@
       "03-ui-scenarios-c2-notebook",
       "03-ui-scenarios-Q01-terms",
       "03-ui-scenarios-Q01-worked",
+      "03-ui-scenarios-Q01-practice",
       "03-ui-scenarios-Q01-T01",
       "03-ui-scenarios-Q01-T02",
       "03-ui-scenarios-Q01-T03",
@@ -488,7 +505,8 @@
       "03-ui-scenarios-c2-mistake",
       "03-ui-scenarios-c2-notebook",
       "03-ui-scenarios-Q01-terms",
-      "03-ui-scenarios-Q01-worked"
+      "03-ui-scenarios-Q01-worked",
+      "03-ui-scenarios-Q01-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: офлайн-запись сохранена; пользователь видит ожидание синхронизации; серверное завершение остаётся отдельным постусловием.",
@@ -518,6 +536,7 @@
       "03-ui-scenarios-c4-notebook",
       "03-ui-scenarios-Q02-terms",
       "03-ui-scenarios-Q02-worked",
+      "03-ui-scenarios-Q02-practice",
       "03-ui-scenarios-Q02-T01",
       "03-ui-scenarios-Q02-T02",
       "03-ui-scenarios-Q02-T03",
@@ -543,7 +562,8 @@
       "03-ui-scenarios-c4-mistake",
       "03-ui-scenarios-c4-notebook",
       "03-ui-scenarios-Q02-terms",
-      "03-ui-scenarios-Q02-worked"
+      "03-ui-scenarios-Q02-worked",
+      "03-ui-scenarios-Q02-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: у полей определены смысл и режимы; превышение остатка исправимо; отправка не создаёт ложного подтверждения.",
@@ -573,6 +593,7 @@
       "03-ui-scenarios-c6-notebook",
       "03-ui-scenarios-Q03-terms",
       "03-ui-scenarios-Q03-worked",
+      "03-ui-scenarios-Q03-practice",
       "03-ui-scenarios-Q03-T01",
       "03-ui-scenarios-Q03-T02",
       "03-ui-scenarios-Q03-T03",
@@ -598,7 +619,8 @@
       "03-ui-scenarios-c6-mistake",
       "03-ui-scenarios-c6-notebook",
       "03-ui-scenarios-Q03-terms",
-      "03-ui-scenarios-Q03-worked"
+      "03-ui-scenarios-Q03-worked",
+      "03-ui-scenarios-Q03-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: ноль отклоняется на обоих уровнях; подпись можно повторить; сетевой сбой не уничтожает работу.",
@@ -628,6 +650,7 @@
       "03-ui-scenarios-c8-notebook",
       "03-ui-scenarios-Q04-terms",
       "03-ui-scenarios-Q04-worked",
+      "03-ui-scenarios-Q04-practice",
       "03-ui-scenarios-Q04-T01",
       "03-ui-scenarios-Q04-T02",
       "03-ui-scenarios-Q04-T03",
@@ -653,7 +676,8 @@
       "03-ui-scenarios-c8-mistake",
       "03-ui-scenarios-c8-notebook",
       "03-ui-scenarios-Q04-terms",
-      "03-ui-scenarios-Q04-worked"
+      "03-ui-scenarios-Q04-worked",
+      "03-ui-scenarios-Q04-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: конфликт имеет отдельный экран и проверяемое восстановление; макет связан с контрактом и критерием приёмки.",
@@ -683,6 +707,7 @@
       "04-access-auth-admin-c2-notebook",
       "04-access-auth-admin-Q01-terms",
       "04-access-auth-admin-Q01-worked",
+      "04-access-auth-admin-Q01-practice",
       "04-access-auth-admin-Q01-T01",
       "04-access-auth-admin-Q01-T02",
       "04-access-auth-admin-Q01-T03",
@@ -708,7 +733,8 @@
       "04-access-auth-admin-c2-mistake",
       "04-access-auth-admin-c2-notebook",
       "04-access-auth-admin-Q01-terms",
-      "04-access-auth-admin-Q01-worked"
+      "04-access-auth-admin-Q01-worked",
+      "04-access-auth-admin-Q01-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: чужой визит не закрывается ни из интерфейса, ни прямым запросом; область данных дополняет роль.",
@@ -738,6 +764,7 @@
       "04-access-auth-admin-c4-notebook",
       "04-access-auth-admin-Q02-terms",
       "04-access-auth-admin-Q02-worked",
+      "04-access-auth-admin-Q02-practice",
       "04-access-auth-admin-Q02-T01",
       "04-access-auth-admin-Q02-T02",
       "04-access-auth-admin-Q02-T03",
@@ -763,7 +790,8 @@
       "04-access-auth-admin-c4-mistake",
       "04-access-auth-admin-c4-notebook",
       "04-access-auth-admin-Q02-terms",
-      "04-access-auth-admin-Q02-worked"
+      "04-access-auth-admin-Q02-worked",
+      "04-access-auth-admin-Q02-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: форма не подтверждает существование аккаунта; попытки учитываются независимо от устройства; секреты не журналируются.",
@@ -793,6 +821,7 @@
       "04-access-auth-admin-c6-notebook",
       "04-access-auth-admin-Q03-terms",
       "04-access-auth-admin-Q03-worked",
+      "04-access-auth-admin-Q03-practice",
       "04-access-auth-admin-Q03-T01",
       "04-access-auth-admin-Q03-T02",
       "04-access-auth-admin-Q03-T03",
@@ -818,7 +847,8 @@
       "04-access-auth-admin-c6-mistake",
       "04-access-auth-admin-c6-notebook",
       "04-access-auth-admin-Q03-terms",
-      "04-access-auth-admin-Q03-worked"
+      "04-access-auth-admin-Q03-worked",
+      "04-access-auth-admin-Q03-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: ограничение входа не лишает пользователя пути восстановления; из двух конкурентных созданий успешным становится одно.",
@@ -848,6 +878,7 @@
       "04-access-auth-admin-c8-notebook",
       "04-access-auth-admin-Q04-terms",
       "04-access-auth-admin-Q04-worked",
+      "04-access-auth-admin-Q04-practice",
       "04-access-auth-admin-Q04-T01",
       "04-access-auth-admin-Q04-T02",
       "04-access-auth-admin-Q04-T03",
@@ -873,7 +904,8 @@
       "04-access-auth-admin-c8-mistake",
       "04-access-auth-admin-c8-notebook",
       "04-access-auth-admin-Q04-terms",
-      "04-access-auth-admin-Q04-worked"
+      "04-access-auth-admin-Q04-worked",
+      "04-access-auth-admin-Q04-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: доступ восстановлен с объяснимым следом; пароль не изменён; дополнительная проверка не стала единственным барьером.",
@@ -903,6 +935,7 @@
       "05-project-documentation-c2-notebook",
       "05-project-documentation-Q01-terms",
       "05-project-documentation-Q01-worked",
+      "05-project-documentation-Q01-practice",
       "05-project-documentation-Q01-T01",
       "05-project-documentation-Q01-T02",
       "05-project-documentation-Q01-T03",
@@ -928,7 +961,8 @@
       "05-project-documentation-c2-mistake",
       "05-project-documentation-c2-notebook",
       "05-project-documentation-Q01-terms",
-      "05-project-documentation-Q01-worked"
+      "05-project-documentation-Q01-worked",
+      "05-project-documentation-Q01-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: источники отделены от подтверждённых требований; назначение описания связано с разработкой и проверкой формы.",
@@ -962,6 +996,7 @@
       "05-project-documentation-Q02-api-transform",
       "05-project-documentation-Q02-api-status",
       "05-project-documentation-Q02-api-tests",
+      "05-project-documentation-Q02-practice",
       "05-project-documentation-Q02-T01",
       "05-project-documentation-Q02-T02",
       "05-project-documentation-Q02-T03",
@@ -991,7 +1026,8 @@
       "05-project-documentation-Q02-api-contract",
       "05-project-documentation-Q02-api-transform",
       "05-project-documentation-Q02-api-status",
-      "05-project-documentation-Q02-api-tests"
+      "05-project-documentation-Q02-api-tests",
+      "05-project-documentation-Q02-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: метод описан через поведение; проверяющий может отличить успешное завершение от отказа без изменения визита.",
@@ -1022,6 +1058,7 @@
       "05-project-documentation-Q03-terms",
       "05-project-documentation-Q03-worked",
       "05-project-documentation-Q03-api-template",
+      "05-project-documentation-Q03-practice",
       "05-project-documentation-Q03-T01",
       "05-project-documentation-Q03-T02",
       "05-project-documentation-Q03-T03",
@@ -1048,7 +1085,8 @@
       "05-project-documentation-c6-notebook",
       "05-project-documentation-Q03-terms",
       "05-project-documentation-Q03-worked",
-      "05-project-documentation-Q03-api-template"
+      "05-project-documentation-Q03-api-template",
+      "05-project-documentation-Q03-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: параметр имеет смысл и проверяемую допустимость; форма показывает восстановление; правило связано с тестом.",
@@ -1079,6 +1117,7 @@
       "05-project-documentation-Q04-terms",
       "05-project-documentation-Q04-worked",
       "05-project-documentation-Q04-api-delivery",
+      "05-project-documentation-Q04-practice",
       "05-project-documentation-Q04-T01",
       "05-project-documentation-Q04-T02",
       "05-project-documentation-Q04-T03",
@@ -1105,7 +1144,8 @@
       "05-project-documentation-c8-notebook",
       "05-project-documentation-Q04-terms",
       "05-project-documentation-Q04-worked",
-      "05-project-documentation-Q04-api-delivery"
+      "05-project-documentation-Q04-api-delivery",
+      "05-project-documentation-Q04-practice"
     ],
     "source": "authoring/source-course.json; authoring/units.mjs",
     "outcome": "Результат: требование раскрыто конкретным решением; комплект проверен по связям; экспорт открывается и сохраняет читаемость.",

@@ -18,15 +18,24 @@
     "build:pages": "npm run build",
     "check:privacy": "node scripts/check-privacy.mjs",
     "export:pdf": "node scripts/export-pdf.mjs",
-    "test:smoke": "node scripts/smoke.mjs"
+    "test:smoke": "node scripts/check-reviewed-ui.mjs",
+    "check:methodology": "node scripts/check-methodology.mjs",
+    "check:generated": "node scripts/check-generated.mjs",
+    "test:cases": "node scripts/review-release.mjs cases",
+    "test:tasks": "node scripts/review-release.mjs tasks",
+    "test:presentation": "node scripts/review-release.mjs show",
+    "export:teaching": "node scripts/export-teaching.mjs"
   },
   "dependencies": {
-    "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0.tgz",
+    "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz",
+    "lucide-react": "^1.61.0",
+    "qrcode": "^1.5.4",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
