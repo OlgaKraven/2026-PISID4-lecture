@@ -1,0 +1,41 @@
+{
+  "version": "pisid4-2026.10.25-review3",
+  "url": "https://olgakraven.github.io/2026-PISID4-lecture/",
+  "checkedAt": "2026-10-25T16:02:49.354Z",
+  "laboratories": [
+    {
+      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR01",
+      "title": "Анализ пакета документов заказчика"
+    },
+    {
+      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR02",
+      "title": "ER-диаграмма в 3НФ"
+    },
+    {
+      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR03",
+      "title": "Проектирование экрана авторизации"
+    },
+    {
+      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR04",
+      "title": "Матрица ролей и рабочее место администратора"
+    },
+    {
+      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR05",
+      "title": "Проектирование API и проектная документация"
+    }
+  ],
+  "errors": [],
+  "legacyCaseLink": true,
+  "authorizationDiagram": "Concrete request ENG-01 → visit ENG-02, server check and no change on denial",
+  "gitIdentities": [
+    "OlgaKraven <129203943+OlgaKraven@users.noreply.github.com> | OlgaKraven <129203943+OlgaKraven@users.noreply.github.com>",
+    "Olga Kraven <olgakraven@gmail.com> | Olga Kraven <olgakraven@gmail.com>"
+  ],
+  "contributors": {
+    "count": 1,
+    "login": "OlgaKraven",
+    "observedText": "Contributors\n1\n (1)\nOlgaKravenOlga",
+    "source": "https://github.com/OlgaKraven/2026-PISID4-lecture"
+  },
+  "status": "passed"
+}
