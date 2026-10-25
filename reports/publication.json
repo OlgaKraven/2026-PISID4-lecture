@@ -1,56 +1,35 @@
 {
-  "checkedAt": "2026-10-25T10:06:24.214Z",
-  "contentCommit": "2109691e6c4dbe6cec016e14058d0369e2c8940e",
+  "contentCommit": "a6b81559f547c743372c1cf8eb4352d9dd4e37da",
+  "checkedAt": "2026-10-25T10:31:48.592Z",
   "url": "https://olgakraven.github.io/2026-PISID4-lecture/",
+  "checks": [
+    "Modal, first check, audience reload and close",
+    "Matching: whole row, right then left",
+    "New diagram renderer and local focus"
+  ],
   "resources": [
     {
       "name": "course.json",
-      "sha256": "d521606cb2b33a8a05f498d26478243ecc42518bca5c7432da94b56086657dc9"
+      "sha256": "7defffae66ba8a59fbd758fa2dbb945438eb012762c426a7dbabb49db0cb86ca"
     },
     {
       "name": "teacher-pack.json",
-      "sha256": "b2f08107fc4205f0163a9560997a748945b593bf3d709a20ced7d83e5a12f73e"
+      "sha256": "73fad8bbf73ea7c115a0a77a8a24ba1d935aa347bdbfc886ce5c88d911d51edd"
     },
     {
       "name": "assessment.json",
-      "sha256": "4ef2353b3e39f3201ec01d0e84443377312bbb956afd1fc7c0ce267925494494"
+      "sha256": "94e3639b016632362d11521b96175aea44c53e42494a7ee90a3ef12cf903e382"
     },
     {
       "name": "practice-cases.json",
-      "sha256": "48b77e391040bbbec1d7e1803d2321e2c70e726a75959809631480593ff54989"
+      "sha256": "d6b0c8ee3e6f5096b0fb8cf28dd8e20a6d15e870c61b9f7bcf01abd4fedb6ca8"
     }
   ],
-  "laboratoryLinks": [
-    {
-      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR01",
-      "title": "Анализ пакета документов заказчика"
-    },
-    {
-      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR02",
-      "title": "ER-диаграмма в 3НФ"
-    },
-    {
-      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR03",
-      "title": "Проектирование экрана авторизации"
-    },
-    {
-      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR04",
-      "title": "Матрица ролей и рабочее место администратора"
-    },
-    {
-      "url": "https://olgakraven.github.io/2026-PIDIS-lab/#/lab/C4-S7-LR05",
-      "title": "Проектирование API и проектная документация"
-    }
-  ],
-  "errors": [],
-  "publicCase": true,
   "status": "passed",
   "workflow": {
-    "id": 40183295228,
+    "id": 40185078704,
     "conclusion": "success",
-    "url": "https://github.com/OlgaKraven/2026-PISID4-lecture/actions/runs/40183295228"
+    "url": "https://github.com/OlgaKraven/2026-PISID4-lecture/actions/runs/40185078704"
   },
-  "contributors": [
-    "OlgaKraven"
-  ]
+  "contentVersion": "pisid4-2026.10.25-student-review2"
 }
