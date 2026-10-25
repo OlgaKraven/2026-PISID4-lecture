@@ -21,10 +21,12 @@
     "test:smoke": "node scripts/check-reviewed-ui.mjs",
     "check:methodology": "node scripts/check-methodology.mjs",
     "check:generated": "node scripts/check-generated.mjs",
-    "test:cases": "node scripts/review-release.mjs cases",
+    "test:cases": "node scripts/check-student-cases.mjs",
     "test:tasks": "node scripts/review-release.mjs tasks",
     "test:presentation": "node scripts/review-release.mjs show",
-    "export:teaching": "node scripts/export-teaching.mjs"
+    "export:teaching": "node scripts/export-teaching.mjs",
+    "test:diagrams": "node scripts/check-infographics.mjs",
+    "test:matching": "node scripts/check-matching-responsive.mjs"
   },
   "dependencies": {
     "@olgakraven/lecture-engine": "file:vendor/olgakraven-lecture-engine-0.2.0-course.5.tgz",

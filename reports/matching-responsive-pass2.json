@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "Keyboard: right then left",
+    "Whole-row click, replacing a pair and one-to-one constraint",
+    "20 modals at 320",
+    "20 modals at 390"
+  ]
+}

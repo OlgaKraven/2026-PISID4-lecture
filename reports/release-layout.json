@@ -1,5 +1,5 @@
 {
-  "version": "pisid4-2026.10.25-review",
+  "version": "pisid4-2026.10.25-student-review2",
   "mode": "layout",
   "lectures": [
     {
@@ -2201,7 +2201,7 @@
     },
     {
       "id": "04-access-auth-admin-Q04-worked",
-      "overflow": 0,
+      "overflow": 16,
       "outside": [],
       "svgOutside": []
     },
@@ -2854,6 +2854,13 @@
       "svgOutside": []
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "id": "04-access-auth-admin-Q04-worked",
+      "overflow": 16,
+      "outside": [],
+      "svgOutside": []
+    }
+  ],
   "status": "passed"
 }

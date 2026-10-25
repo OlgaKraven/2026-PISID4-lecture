@@ -98,11 +98,12 @@ export function refineCourse(course, teacher, questions, registry) {
    lecture.slides.splice(position,0,slide);
    const q=questions.find(q=>q.lectureId===lecture.id&&q.questionId.endsWith(`Q0${qi}`));
    q.slideIds.splice(q.slideIds.indexOf(`${lecture.id}-Q0${qi}-T01`),0,slide.id);q.evidence.push(slide.id);
-   teacher.notes[slide.id]={script:`${practice.input} Откройте «Интерактивная схема» в отдельной вкладке. Запишите прогноз, затем заполните ${practice.fields.map(f=>f.label.toLocaleLowerCase('ru')).join(' и ')}. На втором шаге используйте результат первого. Обоснование обсуждаем отдельно. После разбора вернитесь по ссылке к этому слайду и продолжите самопроверку.`,preparation:'Откройте самостоятельный случай и проверьте доступность новой вкладки. Данные условные; решение не показывать до попытки.',notebook:'',questions:'Какие данные определяют каждый шаг? При каком изменении условия результат будет другим?',answer:practice.fields.map((f,i)=>`Шаг ${i+1}. ${f.label}: ${f.answer}. ${f.hint}`).join('\n')+`\n${practice.explanation}\nГраница: ${practice.boundary}`,estimatedSeconds:240};
+   teacher.notes[slide.id]={script:`${practice.input} Нажмите «Разбор задачи». Откроется модальное окно; в режиме показа его состояние видит аудитория. Запишите прогноз, затем заполните ${practice.fields.map(f=>f.label.toLocaleLowerCase('ru')).join(' и ')}. Следуйте отдельной операции каждого шага. Обоснование обсуждаем отдельно. После разбора нажмите «Вернуться к слайду» и продолжите самопроверку.`,preparation:'Откройте модальное окно задачи и проверьте его отображение у аудитории. Данные условные; решение не показывать до попытки.',notebook:'',questions:'Какие данные определяют каждый шаг? При каком изменении условия результат будет другим?',answer:practice.fields.map((f,i)=>`Шаг ${i+1}. ${f.instruction} В поле «${f.label}» введите ${f.answer} и нажмите «Проверить шаг ${i+1}». Ожидаемое сообщение: ${f.success} ${f.hint}`).join('\n')+`\n${practice.explanation}\nИзменённое условие: ${practice.change.input}. ${practice.change.result}\nГраница: ${practice.boundary}`,estimatedSeconds:240};
   }
   registry[li].slides=lecture.slides.length;
   registry[li].estimatedMinutes=Math.round(lecture.slides.reduce((sum,s)=>sum+teacher.notes[s.id].estimatedSeconds,0)/60);
  }
+ teacher.noteMigrations=JSON.parse(fs.readFileSync('authoring/note-migrations.json','utf8'));
  teacher.previousContentVersion=baseline.contentVersion;
  teacher.previousNoteHashes=baseline.notes;
  fs.writeFileSync('public/practice-cases.json',JSON.stringify(practices,null,2)+'\n');

@@ -2,9 +2,9 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {launchBrowser,siteUrl} from './runtime.mjs';
 const course=JSON.parse(await fs.readFile('public/course.json','utf8'));
-const cases=JSON.parse(await fs.readFile('public/practice-cases.json','utf8'));
 const bank=JSON.parse(await fs.readFile('public/assessment.json','utf8'));
 const mode=process.argv[2]||'layout';
+if(mode==='cases'){await import('./check-student-cases.mjs');}else{
 const report={version:course.contentVersion,mode,lectures:[],cases:[],tasks:[],errors:[],layout:[]};
 await fs.mkdir('output/playwright',{recursive:true});
 const browser=await launchBrowser(),context=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce'});
@@ -33,37 +33,6 @@ try{
   }
   report.problems=report.layout.filter(x=>x.outside.length||x.svgOutside.length||x.overflow>3);
  }
- if(mode==='cases'){
-  for(const c of cases){
-   await page.goto(siteUrl+'?case='+c.id);
-   await page.getByRole('heading',{name:c.title,exact:true}).waitFor();
-   assert.equal(await page.locator('.case-solution').count(),0);
-   await page.getByLabel('Прогноз: что должно получиться').fill('Мой прогноз по условию');
-   assert.equal(await page.getByRole('textbox',{name:c.fields[1].label,exact:true}).isDisabled(),true);
-   for(let i=0;i<2;i++){
-    const field=page.getByRole('textbox',{name:c.fields[i].label,exact:true});
-    await field.fill('неверный результат');await page.getByRole('button',{name:'Проверить шаг '+(i+1),exact:true}).click();
-    await page.locator('[data-status=fail]').waitFor();
-    await field.fill(c.fields[i].answer);await page.getByRole('button',{name:'Проверить шаг '+(i+1),exact:true}).click();
-    await page.locator('[data-status=pass]').nth(i).waitFor();
-   }
-   await page.getByRole('button',{name:'Показать разбор после попытки',exact:true}).click();
-   await page.locator('.case-solution').waitFor();
-   assert.ok((await page.locator('.case-solution').innerText()).includes(c.explanation));
-   await page.getByRole('textbox',{name:c.fields[0].label,exact:true}).fill('изменено');
-   await page.locator('.case-solution').waitFor({state:'hidden'});
-   assert.equal(await page.locator('[data-status=pass]').count(),0);
-   assert.equal(await page.getByRole('textbox',{name:c.fields[1].label,exact:true}).inputValue(),'');
-   await page.reload();await page.getByRole('heading',{name:c.title,exact:true}).waitFor();
-   assert.equal(await page.getByLabel('Прогноз: что должно получиться').inputValue(),'Мой прогноз по условию');
-   await page.getByRole('link',{name:'Вернуться к слайду'}).click();
-   await page.locator('.active-slide [data-slide-id="'+c.returnSlide+'"]').waitFor();
-   const popup=context.waitForEvent('page');await page.getByRole('link',{name:'Интерактивная схема',exact:true}).click();
-   const taskPage=await popup;await taskPage.getByRole('heading',{name:c.title,exact:true}).waitFor();await taskPage.close();
-   report.cases.push({id:c.id,wrongAndCorrect:2,dependentReset:true,persists:true,passportNewTab:true});
-   if(report.cases.length%4===0)console.log(c.lectureId+': 4 cases');
-  }
- }
  if(mode==='show'){
   for(const l of course.lectures){
    await page.goto(siteUrl+`?lecture=${l.id}&slide=${l.slides[0].id}`);await page.getByRole('button',{name:'Режим показа',exact:true}).waitFor();
@@ -89,7 +58,7 @@ try{
     if(t.type==='short')await page.getByRole('textbox',{name:'Краткий ответ'}).fill(k.accepted[0]);
     else if(t.type==='matching'){
      const board=page.locator('.matching-board');
-     for(const item of t.items){await board.locator(`[data-match-id="${item.id}"] .matching-card-title>button`).click();await board.locator(`[data-option-id="${k.pairs[item.id]}"] .matching-card-title>button`).click()}
+     for(const item of t.items){await board.locator(`[data-match-id="${item.id}"] .matching-choice`).click();await board.locator(`[data-option-id="${k.pairs[item.id]}"] .matching-choice`).click()}
     }else for(const id of k.correct){const text=t.options.find(x=>x.id===id).text;await page.getByText(text,{exact:true}).click()}
     await submit.click();await page.locator('.task-status').waitFor();
     const result=await page.locator('.task-status').innerText();assert.ok(!/неверно|неправильно|ошибка/i.test(result.split('\n')[0]),s.id+': '+result);
@@ -102,3 +71,5 @@ try{
 }catch(e){report.status='failed';report.failure=String(e);throw e;}
 finally{await fs.writeFile(`reports/release-${mode}.json`,JSON.stringify(report,null,2)+'\n');await browser.close();}
 console.log(JSON.stringify({mode,status:report.status,lectures:report.lectures.length,cases:report.cases.length,tasks:report.tasks.length,layoutProblems:report.problems?.length}));
+
+}

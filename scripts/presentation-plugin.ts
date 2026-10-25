@@ -3,6 +3,7 @@ import type {Plugin} from 'vite';
 
 // Checked extension of the pinned runtime; the vendor archive stays intact.
 export function presentationPlugin():Plugin {
+ const diagram=fileURLToPath(new URL('../src/course-diagram.tsx',import.meta.url));
  const catalog=fileURLToPath(new URL('../src/CourseCatalog.tsx',import.meta.url));
  const cases=fileURLToPath(new URL('../src/case-workshop.tsx',import.meta.url));
  const overview=fileURLToPath(new URL('../src/assessment-overview.tsx',import.meta.url));
@@ -58,6 +59,13 @@ export function presentationPlugin():Plugin {
 
   }
   if(file.endsWith('/SlideView-CKuVrZ7x.js')){
+   const diagramStart=code.indexOf('function et({ visual: e, base: t = "/" }) {');
+   const diagramEnd=code.indexOf('//#endregion',diagramStart);
+   if(diagramStart<0||diagramEnd<0)throw Error('Infographic signature changed');
+   code=code.slice(0,diagramStart)+`function et({visual:e}){const[i,o]=c(null),s=r($e),view=s?s.view:i,setView=s?s.setView:o;return f("figure",{className:"infographic infographic-modern infographic-"+e.type,children:[d("div",{className:"infographic-canvas",children:d(CourseDiagram,{visual:e})}),d("figcaption",{children:e.caption}),d("div",{className:"infographic-actions",children:d("button",{className:"diagram-open-button",onClick:()=>setView("diagram"),children:"Развернуть схему"})}),view&&p(d(B,{title:"Подробная схема",wide:true,onClose:()=>setView(null),children:d("div",{className:"diagram-dialog-content",children:[d(CourseDiagram,{visual:e}),d("p",{children:e.caption})]})}),document.body)]});}
+`+code.slice(diagramEnd);
+   code=`import {CourseDiagram} from ${JSON.stringify(diagram)};\n`+code;
+
    const start=code.indexOf('function at({ lecture: e, onGo: t }) {'),end=code.indexOf('function st({ task: e, onChange: t }) {',start);
    if(start<0||end<0)throw Error('Assessment overview signature changed');
    code=code.slice(0,start)+'function at({lecture:e,onGo:t}){let n=V(),i=r(Q);return n?null:d(CourseAssessmentOverview,{lecture:e,attempts:i.attempts,onGo:t,onReset:i.reset});}\n'+code.slice(end);

@@ -2,91 +2,91 @@
   {
     "lectureId": "01-customer-documents",
     "pages": 93,
+    "renderedPages": [
+      12,
+      14,
+      15,
+      24,
+      64
+    ],
     "metadata": {
       "/Title": "ПиДИС · 4 курс",
       "/Creator": "Chromium",
       "/Producer": "Skia/PDF m153",
-      "/CreationDate": "D:20261025095852+00'00'",
-      "/ModDate": "D:20261025095852+00'00'"
-    },
-    "renderedPages": [
-      1,
-      10,
-      16,
-      25,
-      64
-    ]
+      "/CreationDate": "D:20261025102857+00'00'",
+      "/ModDate": "D:20261025102857+00'00'"
+    }
   },
   {
     "lectureId": "02-conceptual-model",
     "pages": 93,
+    "renderedPages": [
+      12,
+      14,
+      15,
+      24,
+      64
+    ],
     "metadata": {
       "/Title": "ПиДИС · 4 курс",
       "/Creator": "Chromium",
       "/Producer": "Skia/PDF m153",
-      "/CreationDate": "D:20261025095856+00'00'",
-      "/ModDate": "D:20261025095856+00'00'"
-    },
-    "renderedPages": [
-      1,
-      10,
-      16,
-      25,
-      64
-    ]
+      "/CreationDate": "D:20261025102900+00'00'",
+      "/ModDate": "D:20261025102900+00'00'"
+    }
   },
   {
     "lectureId": "03-ui-scenarios",
     "pages": 93,
+    "renderedPages": [
+      12,
+      14,
+      15,
+      24,
+      64
+    ],
     "metadata": {
       "/Title": "ПиДИС · 4 курс",
       "/Creator": "Chromium",
       "/Producer": "Skia/PDF m153",
-      "/CreationDate": "D:20261025095900+00'00'",
-      "/ModDate": "D:20261025095900+00'00'"
-    },
-    "renderedPages": [
-      1,
-      10,
-      16,
-      25,
-      64
-    ]
+      "/CreationDate": "D:20261025102903+00'00'",
+      "/ModDate": "D:20261025102903+00'00'"
+    }
   },
   {
     "lectureId": "04-access-auth-admin",
     "pages": 93,
+    "renderedPages": [
+      12,
+      14,
+      15,
+      24,
+      64
+    ],
     "metadata": {
       "/Title": "ПиДИС · 4 курс",
       "/Creator": "Chromium",
       "/Producer": "Skia/PDF m153",
-      "/CreationDate": "D:20261025095904+00'00'",
-      "/ModDate": "D:20261025095904+00'00'"
-    },
-    "renderedPages": [
-      1,
-      10,
-      16,
-      25,
-      64
-    ]
+      "/CreationDate": "D:20261025102906+00'00'",
+      "/ModDate": "D:20261025102906+00'00'"
+    }
   },
   {
     "lectureId": "05-project-documentation",
     "pages": 99,
+    "renderedPages": [
+      12,
+      14,
+      15,
+      24,
+      64
+    ],
     "metadata": {
       "/Title": "ПиДИС · 4 курс",
       "/Creator": "Chromium",
       "/Producer": "Skia/PDF m153",
-      "/CreationDate": "D:20261025095909+00'00'",
-      "/ModDate": "D:20261025095909+00'00'"
-    },
-    "renderedPages": [
-      1,
-      10,
-      16,
-      25,
-      64
-    ]
+      "/CreationDate": "D:20261025102909+00'00'",
+      "/ModDate": "D:20261025102909+00'00'"
+    }
   }
 ]

@@ -31,12 +31,12 @@ export function interfacePlugin(): Plugin {
       replace('children: ["Вперёд", /* @__PURE__ */ w(se, { size: 18 })]', '"aria-label": "Следующий слайд", title: "Следующий слайд (→)", children: [/* @__PURE__ */ w(se, { size: 20 })]');
       replace('if (N || t.closest("input,textarea,select,button,a,[contenteditable=\\"true\\"]")) return;', 'if (N || document.querySelector("dialog[open]") || t.closest("input,textarea,select,[contenteditable],.experiment") || (t.closest("button,a") && !t.closest(".deck-controls"))) return;');
       // Auto animation only, and honour the current device preference.
-      replace('C(() => m(`${h}:animation`, !matchMedia("(prefers-reduced-motion: reduce)").matches))', 'C(() => !matchMedia("(prefers-reduced-motion: reduce)").matches)');
+      replace('C(() => m(`${h}:animation`, !matchMedia("(prefers-reduced-motion: reduce)").matches))', 'C(() => false)');
     } else if (file.endsWith('/Teaching-DFPbXmGy.js')) {
       replace('children: [/* @__PURE__ */ w(p, { size: 17 }), "Назад"]', '"aria-label": "Предыдущий слайд", title: "Предыдущий слайд (←)", children: [/* @__PURE__ */ w(p, { size: 20 })]');
       replace('children: ["Вперёд", /* @__PURE__ */ w(v, { size: 17 })]', '"aria-label": "Следующий слайд", title: "Следующий слайд (→)", children: [/* @__PURE__ */ w(v, { size: 20 })]');
       replace('e.target.closest("input,textarea,select,button,[contenteditable]")', '(e.target.closest("input,textarea,select,[contenteditable],.experiment,[role=separator]") || (e.target.closest("button,a") && !e.target.closest(".presenter-controls")))');
-      replace('animations: !0,', 'animations: !matchMedia("(prefers-reduced-motion: reduce)").matches,');
+      replace('animations: !0,', 'animations: false,');
       replace('/* @__PURE__ */ w("button", {\n\t\t\t\t\t\t\t\t\t\tclassName: "button ghost",\n\t\t\t\t\t\t\t\t\t\tdisabled: !H,\n\t\t\t\t\t\t\t\t\t\tonClick: () => ge(L + 1),\n\t\t\t\t\t\t\t\t\t\tchildren: "Повтор анимации"\n\t\t\t\t\t\t\t\t\t}),', 'null,');
       replace('className: "presenter-notes",\n\t\t\t\t\t\tchildren: [', 'className: "presenter-notes",\n\t\t\t\t\t\tchildren: [/* @__PURE__ */ w("p", {className: "notes-version", children: "Подробный сценарий · " + e.contentVersion}), ');
     } else if (file.endsWith('/CourseTools-C3cpIfZW.js')) {

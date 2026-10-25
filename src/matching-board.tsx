@@ -1,44 +1,23 @@
-import {useEffect, useLayoutEffect, useRef} from 'react';
+import {useEffect,useLayoutEffect,useRef} from 'react';
 import type {Slide} from '@olgakraven/lecture-engine';
 import {useDemoState} from './experiment-state';
-
 type Task=NonNullable<Slide['task']>;
-type Attempt={draft: unknown;seed?: number;result?: unknown};
+type Attempt={draft:unknown;seed?:number;result?:unknown};
 type Controller={readonly:boolean;change:(task:Task,value:Record<string,string>)=>void};
 export function taskSeed(id:string){let hash=2166136261;for(const c of id)hash=Math.imul(hash^c.charCodeAt(0),16777619);return hash>>>0;}
-export function shuffledOptions<T>(values:T[],seed:number){
- const result=[...values];let state=seed>>>0;
- for(let i=result.length-1;i>0;i--){state=(Math.imul(state,1664525)+1013904223)>>>0;const j=state%(i+1);[result[i],result[j]]=[result[j],result[i]];}
- return result;
-}
+export function shuffledOptions<T>(values:T[],seed:number){const result=[...values];let state=seed>>>0;for(let i=result.length-1;i>0;i--){state=(Math.imul(state,1664525)+1013904223)>>>0;const j=state%(i+1);[result[i],result[j]]=[result[j],result[i]];}return result;}
 export function MatchingBoard({task,attempt,controller}:{task:Task;attempt?:Attempt;controller:Controller}){
- const seed=attempt?.seed??taskSeed(task.id),locked=controller.readonly||Boolean(attempt?.result);
- const items=task.items||[],options=task.options||[];
- const [layout,update]=useDemoState('matching:'+task.id,{left:shuffledOptions(items,seed).map(i=>i.id),right:shuffledOptions(options,seed+17).map(o=>o.id),active:'',scrollLeft:0,scrollRight:0,seed,shuffles:0},!controller.readonly,document.documentElement.dataset.courseVersion||'');
- const left=layout.left as string[],right=layout.right as string[];
+ const seed=attempt?.seed??taskSeed(task.id),locked=controller.readonly||Boolean(attempt?.result),items=task.items||[],options=task.options||[];
+ const [s,update]=useDemoState('matching:'+task.id,{left:shuffledOptions(items,seed).map(i=>i.id),right:shuffledOptions(options,seed+17).map(o=>o.id),active:'',activeRight:'',message:'Выберите строку в любом списке, затем строку во втором.',scrollLeft:0,scrollRight:0,seed,shuffles:0},!controller.readonly,document.documentElement.dataset.courseVersion||'');
  const draft=attempt?.draft&&typeof attempt.draft==='object'&&!Array.isArray(attempt.draft)?attempt.draft as Record<string,string>:{};
- const leftList=useRef<HTMLDivElement>(null),rightList=useRef<HTMLDivElement>(null);
- useEffect(()=>{if(!controller.readonly&&layout.seed!==seed)update({left:shuffledOptions(items,seed).map(i=>i.id),right:shuffledOptions(options,seed+17).map(o=>o.id),active:'',scrollLeft:0,scrollRight:0,seed});},[seed,controller.readonly]);
- useLayoutEffect(()=>{if(controller.readonly){if(leftList.current)leftList.current.scrollTop=Number(layout.scrollLeft)*Math.max(0,leftList.current.scrollHeight-leftList.current.clientHeight);if(rightList.current)rightList.current.scrollTop=Number(layout.scrollRight)*Math.max(0,rightList.current.scrollHeight-rightList.current.clientHeight);}},[layout.scrollLeft,layout.scrollRight,controller.readonly]);
- const move=(side:'left'|'right',id:string,direction:number)=>{
-  const next=[...(layout[side] as string[])],index=next.indexOf(id),to=index+direction;
-  if(to<0||to>=next.length)return;[next[index],next[to]]=[next[to],next[index]];update({[side]:next});
- };
- const choose=(id:string,value:string)=>{if(!locked)controller.change(task,{...draft,[id]:value});};
- const moves=(side:'left'|'right',id:string,index:number,total:number,label:string)=>!controller.readonly&&<span className="matching-moves"><button type="button" aria-label={`Поднять ${label}`} disabled={index===0} onClick={()=>move(side,id,-1)}>↑</button><button type="button" aria-label={`Опустить ${label}`} disabled={index===total-1} onClick={()=>move(side,id,1)}>↓</button></span>;
- return <section className="matching-board" aria-label="Связанные списки соответствия">
-  <div className="matching-board-heading"><p>Выберите понятие слева и характеристику справа. Пары показаны целиком.</p>{!controller.readonly&&<button type="button" className="button ghost" onClick={()=>update({left:shuffledOptions(items,Number(layout.seed)+31+Number(layout.shuffles)*13).map(i=>i.id),right:shuffledOptions(options,Number(layout.seed)+47+Number(layout.shuffles)*17).map(o=>o.id),shuffles:Number(layout.shuffles)+1})}>Перемешать списки</button>}</div>
-  <div className="matching-columns">
-   <div className="matching-list" ref={leftList} aria-label="Понятия и выбранные пары" onScroll={e=>{if(!controller.readonly)update({scrollLeft:e.currentTarget.scrollTop/Math.max(1,e.currentTarget.scrollHeight-e.currentTarget.clientHeight)});}}>
-    {left.map((id,index)=>{const item=items.find(i=>i.id===id);if(!item)return null;const value=draft[id]||'',chosen=options.find(o=>o.id===value);return <div className={`matching-card ${layout.active===id?'matching-active':''}`} key={id} data-match-id={id}>
-     <div className="matching-card-title">{controller.readonly?<strong>{item.text}</strong>:<button type="button" disabled={locked} aria-pressed={layout.active===id} onClick={()=>update({active:id})}>{index+1}. {item.text}</button>}{moves('left',id,index,left.length,'понятие '+item.text)}</div>
-
-     <p className="matching-selected" data-match-value={value}>{chosen?chosen.text:'Пара пока не выбрана'}</p>
-    </div>;})}
-   </div>
-   <div className="matching-list" ref={rightList} aria-label="Характеристики" onScroll={e=>{if(!controller.readonly)update({scrollRight:e.currentTarget.scrollTop/Math.max(1,e.currentTarget.scrollHeight-e.currentTarget.clientHeight)});}}>
-    {right.map((id,index)=>{const option=options.find(o=>o.id===id);if(!option)return null;const linked=items.filter(i=>draft[i.id]===id);return <div className={`matching-card ${linked.length?'matching-linked':''}`} key={id} data-option-id={id}><div className="matching-card-title">{controller.readonly?<strong>{String.fromCharCode(1040+index)}</strong>:<button type="button" disabled={locked||!layout.active} onClick={()=>choose(String(layout.active),id)}>{String.fromCharCode(1040+index)}. {option.text}</button>}{moves('right',id,index,right.length,'характеристику '+option.text)}</div>{controller.readonly&&<p>{option.text}</p>}{linked.length>0&&<p className="matching-links">Связано: {linked.map(i=>i.text).join('; ')}</p>}</div>;})}
-   </div>
-  </div>
- </section>;
+ const left=s.left as string[],right=s.right as string[],leftList=useRef<HTMLDivElement>(null),rightList=useRef<HTMLDivElement>(null);
+ useEffect(()=>{if(!controller.readonly&&s.seed!==seed)update({left:shuffledOptions(items,seed).map(i=>i.id),right:shuffledOptions(options,seed+17).map(o=>o.id),active:'',activeRight:'',message:'Новая попытка. Выберите две строки.',scrollLeft:0,scrollRight:0,seed});},[seed,controller.readonly]);
+ useLayoutEffect(()=>{if(controller.readonly){for(const [ref,key]of [[leftList,'scrollLeft'],[rightList,'scrollRight']] as const)if(ref.current)ref.current.scrollTop=Number(s[key])*Math.max(0,ref.current.scrollHeight-ref.current.clientHeight);}},[s.scrollLeft,s.scrollRight,controller.readonly]);
+ const pair=(id:string,value:string)=>{if(locked)return;const previous=items.find(i=>i.id!==id&&draft[i.id]===value);const next=Object.fromEntries(Object.entries(draft).filter(([key,v])=>key!==id&&v!==value));next[id]=value;controller.change(task,next);update({active:'',activeRight:'',message:`Пара: ${items.find(i=>i.id===id)?.text} — ${options.find(o=>o.id===value)?.text}.${previous?' Характеристика перенесена от понятия «'+previous.text+'».':''}`});};
+ const select=(side:'left'|'right',id:string)=>{if(locked)return;if(side==='left'&&s.activeRight){pair(id,String(s.activeRight));return;}if(side==='right'&&s.active){pair(String(s.active),id);return;}update(side==='left'?{active:s.active===id?'':id,activeRight:'',message:'Теперь выберите характеристику справа.'}:{activeRight:s.activeRight===id?'':id,active:'',message:'Теперь выберите понятие слева.'});};
+ const move=(side:'left'|'right',index:number,direction:number)=>{const list=[...(s[side] as string[])],to=index+direction;if(locked||to<0||to>=list.length)return;[list[index],list[to]]=[list[to],list[index]];update({[side]:list});};
+ const moves=(side:'left'|'right',index:number,label:string)=>!controller.readonly&&<span className="matching-moves"><button type="button" aria-label={'Поднять '+label} disabled={locked||index===0} onClick={()=>move(side,index,-1)}>↑</button><button type="button" aria-label={'Опустить '+label} disabled={locked||index===(s[side] as string[]).length-1} onClick={()=>move(side,index,1)}>↓</button></span>;
+ return <section className="matching-board" aria-label="Связанные списки соответствия"><div className="matching-board-heading"><p>Нажмите строку понятия и строку характеристики. Можно начать с любой стороны. Чтобы заменить пару, выберите строки заново.</p>{!controller.readonly&&<button type="button" className="button ghost" disabled={locked} onClick={()=>update({left:shuffledOptions(items,Number(s.seed)+31+Number(s.shuffles)*13).map(i=>i.id),right:shuffledOptions(options,Number(s.seed)+47+Number(s.shuffles)*17).map(o=>o.id),shuffles:Number(s.shuffles)+1})}>Перемешать списки</button>}</div><div className="matching-columns">
+ <div className="matching-list" ref={leftList} aria-label="Понятия и выбранные пары" onScroll={e=>{if(!controller.readonly)update({scrollLeft:e.currentTarget.scrollTop/Math.max(1,e.currentTarget.scrollHeight-e.currentTarget.clientHeight)})}}>{left.map((id,index)=>{const item=items.find(i=>i.id===id)!;return <div className={'matching-card '+(s.active===id?'matching-active':'')} key={id} data-match-id={id}><button type="button" className="matching-choice" aria-pressed={s.active===id} disabled={locked} onClick={()=>select('left',id)}><strong>{index+1}. {item.text}</strong><span className="matching-selected" data-match-value={draft[id]||''}>{options.find(o=>o.id===draft[id])?.text||'Пара пока не выбрана'}</span></button>{moves('left',index,'понятие '+item.text)}</div>})}</div>
+ <div className="matching-list" ref={rightList} aria-label="Характеристики" onScroll={e=>{if(!controller.readonly)update({scrollRight:e.currentTarget.scrollTop/Math.max(1,e.currentTarget.scrollHeight-e.currentTarget.clientHeight)})}}>{right.map((id,index)=>{const option=options.find(o=>o.id===id)!;const linked=items.filter(i=>draft[i.id]===id);return <div className={'matching-card '+(s.activeRight===id?'matching-active':'')} key={id} data-option-id={id}><button type="button" className="matching-choice" aria-pressed={s.activeRight===id} disabled={locked} onClick={()=>select('right',id)}><strong>{String.fromCharCode(1040+index)}. {option.text}</strong>{linked.length>0&&<span className="matching-links">Связано: {linked.map(i=>i.text).join('; ')}</span>}</button>{moves('right',index,'характеристику '+option.text)}</div>})}</div></div><p className="matching-feedback" role="status">{String(s.message)}</p></section>;
 }
